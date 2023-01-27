@@ -1,0 +1,847 @@
+
+<?php
+/**
+ * for manual testing
+$connector = new FacultyScholarshipORCID();
+$data = $connector->getUvaData('rjb6f');
+$orcid = new orcidAPI($data);
+#dsm($orcid->getWorks());
+dsm($orcid->getWork(35692539));
+dsm($orcid->putWork(node_load(798921), TRUE));
+ */
+
+
+
+/**
+ *   facultyscholarship.module for Drupal
+ *
+ *   This module is designed for managing the UVA Law School's faculty scholarship repository
+ *   Copyright (C) 2018 - 2020  Loren Moulds
+ *
+ *   This program is free software; you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation; either version 2 of the License, or
+ *   (at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License along
+ *   with this program; if not, write to the Free Software Foundation, Inc.,
+ *   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ */
+
+define('PUBLICATION_ENTITY', 'publication');
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function facultyscholarship_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'ctools' && $plugin_type == 'content_types') {
+    return 'plugins/content_types';
+  }
+}
+
+function fsb(){
+  $publication = node_load(1250336);
+  #dsm(($publication));
+
+  $fs = new FacultyScholarship($publication);
+  dsm($fs->test());
+  #dsm($fs->citation());
+}
+
+function facultyscholarship_sync() {
+  $fso = new FacultyScholarshipORCID();
+  $fso->syncRegistered();
+  _fs_sync_update_status();
+  $fsa = new FacultyScholarshipAdmin();
+  $fsa->sync();
+  drupal_set_message('All queued items submitted to ORCID', 'status');
+  #drush @uvalaw.dev -v ev "facultyscholarship_cron();"
+}
+
+function _fs_sync_all(){
+  $fsa = new FacultyScholarshipAdmin();
+  $registered = $fsa->faculty(TRUE);
+  _fs_sync($registered);
+}
+
+function _fs_sync($faculty){
+  $batch = array(
+    'title' 			=> t('Synchronize Employment and Publications Data to ORCID'),
+    'operations' 		=> array(),
+    'init_message' 		=> t('Initializing...'),
+    'progress_message' 	=> t('Operation @current out of @total.'),
+    'error_message' 	=> t('an error occured.'),
+  );
+
+  foreach ($faculty as $member){
+    $batch['operations'][] = array('_fs_sync_proc', array($member));
+  }
+
+  batch_set($batch);
+
+}
+
+
+function _fs_sync_orcid(){
+  //sync employment and works data for UVA ORCID Connector registered faculty
+  $connector = new FacultyScholarshipORCID();
+  $connector->sync();
+
+}
+
+function facultyscholarship_config_load() {
+  if (!class_exists('CiteProc', true)) {
+        if (module_exists('composer_manager') && function_exists('composer_manager_register_autoloader')) {
+            composer_manager_register_autoloader();
+        }
+        elseif (file_exists(__DIR__ . '/vendor/autoload.php')) {
+            require_once __DIR__ . '/vendor/autoload.php';
+        }
+        else {
+            drupal_set_message('Could not load CiteProc. Please use composer to require the CiteProc PHP library or use composer_manager to help you.', 'error');
+            return FALSE;
+        }
+  }
+  if (!class_exists('Client', true)) {
+      if (module_exists('composer_manager') && function_exists('composer_manager_register_autoloader')) {
+        composer_manager_register_autoloader();
+      }
+      elseif (file_exists(__DIR__ . '/vendor/autoload.php')) {
+        require_once __DIR__ . '/vendor/autoload.php';
+      }
+      else {
+        drupal_set_message('Could not load GuzzleHTTP. Please use composer to require the GuzzleHTTP/Client  or use composer_manager to help you.', 'error');
+        return FALSE;
+      }
+  }
+  if (!class_exists('BibtexFormatter', true)) {
+    if (module_exists('composer_manager') && function_exists('composer_manager_register_autoloader')) {
+      composer_manager_register_autoloader();
+    }
+    elseif (file_exists(__DIR__ . '/vendor/autoload.php')) {
+      require_once __DIR__ . '/vendor/autoload.php';
+    }
+    else {
+      drupal_set_message('Could not load BibtexParser. Please use composer to require the audiolabs/bibtexparser  or use composer_manager to help you.', 'error');
+      return FALSE;
+    }
+  }
+    return TRUE;
+}
+
+/**
+ * Gets called after an entity has been deleted from database. Checks to see if entity
+ * is publication and will remove the publication from an orcid-connected user orcid.
+ * HOOK DOES iterate through all referenced authors.
+ *
+ * @param $entity
+ *   An entity object
+ * @param string $entity
+ *   An string containing entity type name
+ *
+ */
+
+function facultyscholarship_entity_postdelete($entity, $entity_type) {
+  list($id) = entity_extract_ids($entity_type, $entity);
+}
+function facultyscholarship_entity_postupdate($entity, $entity_type) {
+  list($id) = entity_extract_ids($entity_type, $entity);
+  if($entity_type == 'node'){
+    $node = node_load($id);
+    if($node->type == 'publication')
+      foreach($node->field_publication_author[LANGUAGE_NONE] as $author){
+        #$author_para = entity_load('paragraphs_item', $author);
+       # $id = $author_para->field_computingid->value;
+      }
+
+
+        watchdog('report', "The deleted entity {$entity_type} id is {$id} from " . __FUNCTION__);
+
+
+
+
+  }
+}
+/*
+$connector = new FacultyScholarshipORCID();
+$data = $connector->getUvaData('ev4a');
+$orcid = new orcidAPI($data);
+$orcid->removeWork(79403504);
+*/
+/**
+ * Implements hook_action_info().
+ */
+function facultyscholarship_menu(){
+  $items = array();
+  $items['admin/config/people/scholarship'] = array(
+    'title' => 'Scholarship Management Tools',
+    'description' => 'Management Tools for Faculty Scholarship Repository',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => ['facultyscholarship_config_form'],
+    'access arguments' => ['access administration pages'],
+    'type' => MENU_NORMAL_ITEM,
+  );
+  $items['admin/config/people/scholarship/queue'] = array(
+    'title' => 'Scholarship Management Works Queue Tools',
+    'description' => 'Management Tools for Faculty Scholarship Repository - Works Queue',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => ['facultyscholarship_queue_config_form'],
+    'access arguments' => ['access administration pages'],
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+/**
+ * Form builder; Manage Scholarship Repository.
+ *
+ * @ingroup forms
+ * @see system_settings_form()
+ */
+
+function facultyscholarship_queue_config_form($form, &$form_state){
+  $form['orcid_manage'] = [
+    '#type' => 'fieldset',
+    '#title' => t("Publications Sync Status"),
+    '#description' => 'Works with ORCID conflicts, not yet synced, or requiring update on remote ORCID profile.'
+  ];
+  $form['orcid_manage']['sync_queue'] = array(
+    '#type' => 'submit',
+    '#value' => t('Push Entire Queue'),
+    '#submit' => ['_fs_manage_registered_orcid_queue_form_submit'],
+  );
+  $fsa = new FacultyScholarshipAdmin();
+  $form['orcid_manage']['queue'] = [
+    '#markup' => _fs_works_queue(),
+  ];
+
+  return $form;
+}
+
+function _fs_manage_registered_orcid_queue_form_submit($form, $form_state){
+  $fsa = new FacultyScholarshipAdmin();
+  $fsa->sync();
+  drupal_set_message('All queued items submitted to ORCID', 'status');
+}
+
+/**
+ * Form builder; Manage Scholarship Repository.
+ *
+ * @ingroup forms
+ * @see system_settings_form()
+ */
+
+function facultyscholarship_config_form($form, &$form_state){
+  $description = '<h5>Current status of faculty members using UVA-Connector ORCID accounts:</h5><p><strong>Sync last run:</strong> ' . variable_get('fs_sync_lastrun') . '</p><ul>
+    <li>Registered: ' . variable_get('fs_users_registered') . '</li>
+    <li>Unregistered: '. variable_get('fs_users_unregistered') .'</li>';
+
+  if(variable_get('fs_users_unsynced') > 0){
+    $description .= '<li>Accounts Requiring Sync: ' . variable_get('fs_users_unsynced') . '</li>';
+  }
+  $description .= '</ul>';
+  $form['orcid_status'] = [
+    '#type' => 'fieldset',
+    '#title' => t('ORCID Status'),
+    '#description' => $description
+  ];
+  $form['orcid_status']['status'] = [
+    '#type' => 'submit',
+    '#value' => t('Recheck Status'),
+    '#submit' => ['_fs_sync_update_status'],
+  ];
+  if(variable_get('fs_users_unsynced') > 0 ){
+    $form['orcid_status']['runsync'] = [
+      '#type' => 'submit',
+      '#value' => t('Sync Registered Accounts to Repository'),
+      '#submit' => ['_fs_sync_registered'],
+    ];
+  }
+  $form['orcid_manage'] = [
+    '#type' => 'fieldset',
+    '#title' => t("Publications Sync Status"),
+    '#description' => 'Works with ORCID conflicts, not yet synced, or requiring update on remote ORCID profile.'
+  ];
+  $fsa = new FacultyScholarshipAdmin();
+  $form['orcid_manage']['status'] = [
+    '#markup' => "<p>Total works requiring sync: " . count($fsa->worksQueue()) . "</p>",
+
+  ];
+  $form['orcid_manage']['queue'] = [
+    '#markup' => '<a href="/admin/config/people/scholarship/queue">Manage Works Queue</a>'
+
+  ];
+  $form['authors_manage'] = [
+    '#type' => 'fieldset',
+    '#title' => t('Manage Authors'),
+    '#description' => '<a href="/admin/scholarship/manage/authors">List Authors</a>'
+  ];
+  return $form;
+}
+
+function _fs_works_queue(){
+  $fsa = new FacultyScholarshipAdmin();
+  $works = $fsa->worksQueue();
+  $content = "";
+  $authors = [];
+  foreach($works as $work){
+    $name = $work['author'];
+    $authors[$name][] = $work;
+  }
+  foreach ($authors as $author => $works){
+    $content .= "<h5>" . $author . "</h5>";
+    $content .= "<table>";
+    foreach($works as $work){
+      $content .= "
+        <tr>
+           <td><a href='/node/" . $work['pid'] . "'>" . $work['work'] . "</a></td>
+           <td>" . $work['issue'] . "</td>
+        </tr>";
+
+    }
+    $content .= "</table>";
+  }
+  return $content;
+}
+
+/**
+ * Submit callback; Faculty Scholarship Sync Registered Faculty with Repository.
+ *
+ * @ingroup forms
+ */
+function _fs_sync_registered($form, &$form_state) {
+  $fso = new FacultyScholarshipORCID();
+  $fso->syncRegistered();
+  _fs_sync_update_status();
+}
+
+function _fs_sync_update_status(){
+  $fso = new FacultyScholarshipAdmin();
+  $status = $fso->checkUnregistered();
+  variable_set('fs_users_unregistered', count($fso->faculty(FALSE)));
+  variable_set('fs_users_registered', count($fso->faculty(TRUE)));
+  variable_set('fs_users_unsynced', count($status['users']));
+  variable_set('fs_sync_lastrun', format_date(time(), 'long'));
+}
+
+
+/*
+ * ALTER metatag schema module hook to differentiate between book and article. allows for tokens to be assigned to both article and book schema types
+ * on metatag interface and filtered on the fly.
+ */
+
+function facultyscholarship_preprocess_node(&$variables) {
+  $node = $variables['node'];
+  if ($node->type == 'publication') {
+    $element = [
+      'bundle' => 'publication',
+      'type'   => taxonomy_term_load($node->field_publication_type[LANGUAGE_NONE][0]['tid'])->name,
+    ];
+    drupal_add_html_head($element, 'publication_filter');
+  }
+}
+function facultyscholarship_html_head_alter(&$elements) {
+  $filter = 'schema_metatag_schema_book';
+
+  if(isset($elements['publication_filter'])) {
+      if ($elements['publication_filter']['bundle'] === 'publication') {
+      $type = $elements['publication_filter']['type'];
+      if ($type == 'Book' || $type == 'Textbook') {
+        $filter = 'schema_metatag_schema_article';
+      }
+    }
+  }
+  if($filter) {
+    foreach (array_keys($elements) as $element) {
+      if (strpos($element, $filter) === 0) {
+        unset($elements[$element]);
+      }
+    }
+  }
+}
+
+/*
+*  Allows faculty to edit publication where they are listed as authors
+*
+*/
+
+function facultyscholarship_node_access($node, $op, $account){
+  if ($op === 'update' && $node->type == 'publication') {
+    foreach ($node->field_publication_author[LANGUAGE_NONE] as $author) {
+      $para = entity_load('paragraphs_item', [$author['value']]);
+      $anid = ($para[$author['value']]->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+      $anode = node_load($anid);
+      if(isset($anode->field_user_account[LANGUAGE_NONE])) {
+        $uid = $anode->field_user_account[LANGUAGE_NONE][0]['target_id'];
+        if ($account->uid == $uid) {
+      #    return NODE_ACCESS_ALLOW;
+        }
+      }
+    }
+  }
+}
+
+function facultyscholarship_citation($nid){
+  if(class_exists('facultyscholarship')) {
+    $fs = new facultyscholarship($nid);
+    $fs->showAuthor();
+    return $fs->citation();
+  }
+}
+
+function facultyscholarship_variant_selection_book_editions($contexts)
+{
+    $wrapper = entity_metadata_wrapper('node', $contexts['argument_entity_id:node_1']->data);
+    $bibDataPara = $wrapper->field_publication_data->value();
+    $initialPara = entity_metadata_wrapper('paragraphs_item', $bibDataPara[0]->item_id);
+    $type = $wrapper->field_publication_type->value();
+    if ($type->name == "Book" || $type->name == "Textbook") {
+        if($initialPara->getBundle() == 'publication_bib_data'){
+            $initialEdition = (int) $initialPara->field_publication_edition->value();
+            if (isset($initialEdition)) {
+                if ( count($bibDataPara) > 1 || $initialEdition > 1)  {
+                    return TRUE;
+                }
+            }
+        }
+    }
+    return FALSE;
+
+}
+
+if ( ! function_exists( 'array_key_first' ) ) {
+    /**
+     * Polyfill for array_key_first() function added in PHP 7.3.
+     *
+     * Get the first key of the given array without affecting
+     * the internal array pointer.
+     *
+     * @param mixed $array An array
+     *
+     * @return mixed The first key of array if the array is not empty; NULL otherwise.
+     */
+    function array_key_first( $array ) {
+        $key = null;
+
+        if ( is_array( $array ) ) {
+
+            foreach ( $array as $key => $value ) {
+                break;
+            }
+        }
+
+        return $key;
+    }
+}
+
+/**
+ * Implements hook_action_info().
+ */
+function facultyscholarship_action_info() {
+    return array(
+        'migrate_pd_range' => [
+            'type' => 'entity',
+            'label' => t('Migrate Partial Date to Range'),
+            'behavior' => array('changes_property'),
+            'configurable' => FALSE,
+            'vbo_configurable' => FALSE,
+            'triggers' => array('any'),
+        ],
+        'fs_convert_id_to_ref' => [
+          'type' => 'entity',
+          'label' => t('Convert faculty uvaid to user reference'),
+          'behavior' => array('changes_property'),
+          'configurable' => FALSE,
+          'vbo_configurable' => FALSE,
+          'triggers' => array('any'),
+        ],
+        'fs_insert_journal_abbreviation'  => [
+            'type' => 'entity',
+            'label' => t('Attempt to pair journal title with Bluebook Abbreviations'),
+            'behavior' => array('changes_property'),
+            'configurable' => FALSE,
+            'vbo_configurable' => FALSE,
+            'triggers' => array('any'),
+        ],
+        'fs_update_author_catalogue'  => [
+        'type' => 'entity',
+        'label' => t('Update author publications to ORCID profile'),
+        'behavior' => array('changes_property'),
+        'configurable' => FALSE,
+        'vbo_configurable' => FALSE,
+        'triggers' => array('any'),
+        ],
+        'fs_migrate_coauths_namefield'  => [
+        'type' => 'entity',
+        'label' => t('Migrate Coauths to name field'),
+        'behavior' => array('changes_property'),
+        'configurable' => FALSE,
+        'vbo_configurable' => FALSE,
+        'triggers' => array('any'),
+      ]
+
+    );
+}
+
+/**
+ * Implements hook_action_info().
+ */
+function facultyscholarship_rules_action_info(){
+  return [
+    'sync_orcid_updated_pub' => [
+      'label' => t('FS | Sync Updated Publications with ORCID'),
+      'parameter' => [
+        'node' => [
+          'type' => 'node',
+          'label' => t('Publication Node ID'),
+        ],
+      ],
+      'configurable' => FALSE,
+      'group' => t('Faculty Scholarship'),
+      'callbacks' => [
+        'execute' => 'fs_sync_orcid_updated_pub',
+      ],
+    ],
+  ];
+}
+
+function _fs_process_external_authors($entity){
+
+
+  $old_name = 'field__publication_coauthor';
+  $new_name = 'field_publication_coauthor';
+  unset($entity->field_publication_coauthor);
+  foreach ($entity->$old_name[LANGUAGE_NONE] as $name){
+    #$names[] = $name['value'];
+    list($family, $given, $middle, $generational) = explode(' ', $name['value']);
+    $data = [
+      'given'   => $given,
+      'middle'  => $middle,
+      'family'  => trim($family, ','),
+      'generational' => $generational
+    ];
+    $entity->field_publication_coauthor[LANGUAGE_NONE][] = $data;
+
+  }
+
+}
+
+
+function fs_migrate_coauths_namefield(&$entity, $context) {
+  foreach ($entity->field__publication_coauthor[LANGUAGE_NONE] as $name){
+    #$names[] = $name['value'];
+    list($family, $given, $middle, $generational) = explode(' ', $name['value']);
+    $data = [
+      'given'   => $given,
+      'middle'  => $middle,
+      'family'  => trim($family, ','),
+      'generational' => $generational
+    ];
+    $paragraph = new ParagraphsItemEntity(['field_name' => 'field_publication_author', 'bundle' => 'publication_author']);
+    $paragraph->is_new = TRUE;
+    $paragraph->field_publication_external_name[LANGUAGE_NONE][] = $data;
+    $paragraph->field_publication_author_role[LANGUAGE_NONE][]['value'] = 'author';
+    $paragraph->setHostEntity('node', $entity);
+    $paragraph->save();
+    #node_save($entity);
+
+
+  }
+
+}
+
+function fs_split_editors(&$entity, $context) {
+  #dsm($entity);
+  $editors = $entity->field_publication_book_editor[LANGUAGE_NONE][0]['value'];
+  $editors = str_replace(', Jr.', ' Jr.', $editors);
+  $editors = str_replace(', &', ', ', $editors);
+  $editors = str_replace('&', ', ', $editors);
+  $split = explode(",", $editors);
+  foreach($split as $editor) {
+    $split_editors[] = [
+      'value' =>  $editor,
+    ];
+  }
+  dsm($split_editors);
+  $entity->field_publication_book_editor[LANGUAGE_NONE][0]['value'] = $editors;
+  #$entity->save();
+
+  /*
+   *
+   $spliton = [
+    '&',
+    ', &',
+    ','
+  ];
+  foreach($spliton as $split){
+    $split_editors[] = explode($split, $editors);
+  }
+
+  dsm($split_editors);
+  */
+}
+
+function fs_sync_orcid_updated_pub($node){
+  $fsa = new FacultyScholarshipAdmin();
+  $fsa->sendWork($node);
+}
+
+function fs_insert_journal_abbreviation(&$entity, $context) {
+    $modPath = drupal_get_path('module', 'facultyscholarship');
+    $file = $modPath . "/bluebook-abbreviations.json";
+    $data = json_decode(file_get_contents($file));
+    foreach ($data as $journal){
+        if($journal->Title == $entity->name){
+            $entity->field_pulisher_abbreviation[LANGUAGE_NONE][]['value'] = $journal->Abbreviation;
+        }
+    }
+}
+
+function fs_convert_id_to_ref(&$entity, $context) {
+    $fp_user_uvaid = $entity->field_computing_id[LANGUAGE_NONE][0]['value'];
+    $user = user_load_by_name($fp_user_uvaid);
+    if($user){
+      $entity->field_user_account[LANGUAGE_NONE][0]['target_id'] = $user->uid;
+    }
+
+}
+
+function migrate_pd_range(&$entity, $context) {
+    foreach($entity->field_publication_date[LANGUAGE_NONE] as $date){
+        $entity->field_publication_dates[LANGUAGE_NONE][0]['from'] = $date['from'];
+    }
+}
+
+
+/**
+ * Implements hook_token_info().
+ */
+function facultyscholarship_token_info()
+{
+  $info['tokens']['node']['publication_author_title'] = array(
+    'name' => t('FS | Publication Authors Lister'),
+    'description' => t('Combine publication authors for title '),
+    'needs-data' => 'node',
+  );
+  $info['tokens']['node']['publication_authors_fullnames'] = array(
+    'name' => t('FS | Publication Authors Delimited GS'),
+    'description' => t('Combine publication authors for Google Scholar Metatag '),
+    'needs-data' => 'node',
+  );
+  $info['tokens']['node']['publication_authors_given'] = array(
+    'name' => t('FS | Publication Authors Delimited GS'),
+    'description' => t('Combine publication authors for Google Scholar Metatag '),
+    'needs-data' => 'node',
+  );
+  $info['tokens']['node']['publication_authors_family'] = array(
+    'name' => t('FS | Publication Authors Delimited GS'),
+    'description' => t('Combine publication authors for Google Scholar Metatag '),
+    'needs-data' => 'node',
+  );
+  $info['tokens']['node']['publication_authors_orcids'] = array(
+    'name' => t('FS | Publication Authors Delimited GS'),
+    'description' => t('Combine publication authors for Google Scholar Metatag '),
+    'needs-data' => 'node',
+  );
+  $info['tokens']['node']['publication_authors_url'] = array(
+    'name' => t('FS | Publication Authors Delimited GS'),
+    'description' => t('Combine publication authors for Google Scholar Metatag '),
+    'needs-data' => 'node',
+  );
+  $info['tokens']['node']['publication_pubdate_iso8601_schema'] = array(
+    'name' => t('FS | Publication Date (ISO 8601) [Schema.org]'),
+    'description' => t('Combine publication authors for Google Scholar Metatag '),
+    'needs-data' => 'node',
+  );
+  $info['tokens']['node']['publication_pubdate_iso8601_gs'] = array(
+    'name' => t('FS | Publication Date (ISO 8601) [Google Scholar]'),
+    'description' => t('Combine publication authors for Google Scholar Metatag '),
+    'needs-data' => 'node',
+  );
+  $info['tokens']['node']['_fs_publication_token_authors_gs'] = array(
+    'name' => t('FS | Author Tags, Comma Delimited [Google Scholar]'),
+    'description' => t('Combine publication authors for Google Scholar Metatag '),
+    'needs-data' => 'node',
+  );
+  return $info;
+}
+
+/**
+ * Implements hook_tokens().
+ */
+function facultyscholarship_tokens($type, $tokens, array $data = [], array $options = [])
+{
+  $token_replacements = [];
+
+  if ($type == 'node' && !empty($data['node'])) {
+    $node = $data['node'];
+    foreach ($tokens as $name => $original) {
+      switch ($name) {
+        case 'publication_pubdate_iso8601_schema':
+          $token_replacements = _fs_publication_token_pubdate_iso8601_schema($node, $token_replacements, $name, $original);
+          break;
+        case 'publication_pubdate_iso8601_gs':
+          $token_replacements = _fs_publication_token_pubdate_iso8601_gs($node, $token_replacements, $name, $original);
+          break;
+        case 'publication_author_title':
+          $token_replacements = _fs_publication_token_author_title($node, $token_replacements, $name, $original);
+        break;
+        case 'publication_authors_fullnames':
+          $token_replacements = _fs_publication_token_authors_fullnames($node, $token_replacements, $name, $original);
+        break;
+        case 'publication_authors_given':
+          $token_replacements = _fs_publication_token_authors_given($node, $token_replacements, $name, $original);
+          break;
+        case 'publication_authors_family':
+          $token_replacements = _fs_publication_token_authors_family($node, $token_replacements, $name, $original);
+          break;
+        case 'publication_authors_orcids':
+          $token_replacements = _fs_publication_token_authors_orcids($node, $token_replacements, $name, $original);
+          break;
+        case 'publication_authors_url':
+          $token_replacements = _fs_publication_token_authors_url($node, $token_replacements, $name, $original);
+          break;
+        case '_fs_publication_token_authors_gs':
+          $token_replacements = _fs_publication_token_authors_gs($node, $token_replacements, $name, $original);
+          break;
+      }
+    }
+  }
+
+  return $token_replacements;
+}
+
+function _fs_publication_token_pubdate_iso8601_schema($node, $token_replacements, $name, $original){
+  $token_replacements[$original] = implode("-", _fs_retrieve_pubdate($node));
+  return $token_replacements;
+}
+function _fs_publication_token_pubdate_iso8601_gs($node, $token_replacements, $name, $original){
+  $token_replacements[$original] = implode("/", _fs_retrieve_pubdate($node));
+  return $token_replacements;
+}
+
+function _fs_retrieve_pubdate($node){
+    $keys = ['year', 'month', 'day'];
+    $paragraph = $node->field_publication_data[LANGUAGE_NONE][0]['value'];
+    $data = entity_load_single('paragraphs_item', $paragraph);
+    $date = $data->field_publication_dates[LANGUAGE_NONE][0]['from'];
+    foreach ($keys as $key){
+      if(isset($date[$key]) && is_numeric($date[$key])){
+        $parts[] = $date[$key];
+      }
+    }
+    return $parts;
+}
+
+function _fs_publication_token_authors_fullnames($node, $token_replacements, $name, $original){
+  $authors = [];
+  foreach ($node->field_publication_author[LANGUAGE_NONE] as $paragraphs) {
+    $paragraph = entity_load_single('paragraphs_item', $paragraphs['value']);
+    $author = entity_load_single('node', $paragraph->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+    $authors[] = $author->title;
+  }
+  $token_replacements[$original] = implode(', ', $authors) . '; ';
+  return $token_replacements;
+}
+
+function _fs_publication_token_authors_gs($node, $token_replacements, $name, $original){
+  $authors = [];
+  foreach ($node->field_publication_author[LANGUAGE_NONE] as $paragraphs) {
+    $paragraph = entity_load_single('paragraphs_item', $paragraphs['value']);
+    $author = entity_load_single('node', $paragraph->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+    $authors[] = str_replace(',', '', $author->title);
+  }
+  $token_replacements[$original] = implode(', ', $authors);
+  return $token_replacements;
+}
+
+function _fs_publication_token_author_delimited($node, $token_replacements, $name, $original){
+  $authors = [];
+  foreach ($node->field_publication_author[LANGUAGE_NONE] as $paragraphs) {
+    $paragraph = entity_load_single('paragraphs_item', $paragraphs['value']);
+    $author = entity_load_single('node', $paragraph->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+    $authors[] = $author->field_last_name[LANGUAGE_NONE][0]['value'] . ', ' . $author->field_first_name[LANGUAGE_NONE][0]['value'];
+  }
+
+  $token_replacements[$original] = implode("; ", $authors);
+  return $token_replacements;
+}
+
+function _fs_publication_token_authors_url($node, $token_replacements, $name, $original){
+  $urls = [];
+  foreach ($node->field_publication_author[LANGUAGE_NONE] as $paragraphs) {
+    $paragraph = entity_load_single('paragraphs_item', $paragraphs['value']);
+    $author = entity_load_single('node', $paragraph->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+    $urls[] = url(drupal_get_path_alias('node/' . $author->nid), ['absolute' => TRUE]);
+  }
+  $token_replacements[$original] = implode('; ', $urls);
+  return $token_replacements;
+}
+
+function _fs_publication_token_author_title($node, $token_replacements, $name, $original){
+  $authors = [];
+  foreach ($node->field_publication_author[LANGUAGE_NONE] as $paragraphs) {
+    $paragraph = entity_load_single('paragraphs_item', $paragraphs['value']);
+    $author = entity_load_single('node', $paragraph->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+    $authors[] = $author->field_first_name[LANGUAGE_NONE][0]['value'] . ' ' . $author->field_last_name[LANGUAGE_NONE][0]['value'];
+  }
+  if (count($authors) == 1){
+    $token_replacements[$original] = array_pop($authors);
+  } elseif(count($authors) == 2){
+    $token_replacements[$original] = $authors[0] . " and " . $authors[1];
+  } elseif(count($authors) > 2){
+    $token_replacements[$original] = $authors[0] . " and " . $authors[1] . ', et al.';
+  }
+  return $token_replacements;
+}
+
+
+
+function _fs_publication_token_authors_orcids($node, $token_replacements, $name, $original){
+  $orcids = [];
+  foreach ($node->field_publication_author[LANGUAGE_NONE] as $paragraphs) {
+    $paragraph = entity_load_single('paragraphs_item', $paragraphs['value']);
+    $author = entity_load_single('node', $paragraph->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+    if($author->field_faculty_orcid) {
+      $orcids[] = $author->field_faculty_orcid[LANGUAGE_NONE][0]['value'];
+    }
+  }
+  $token_replacements[$original] = implode('; ', $orcids) . '; ';
+  return $token_replacements;
+}
+
+function _fs_publication_token_authors_given($node, $token_replacements, $name, $original){
+  $authors = [];
+  foreach ($node->field_publication_author[LANGUAGE_NONE] as $paragraphs) {
+    $person = [];
+    $person['@type'] = 'Person';
+    $paragraph = entity_load_single('paragraphs_item', $paragraphs['value']);
+    $author = entity_load_single('node', $paragraph->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+    $authors[] = $author->field_first_name[LANGUAGE_NONE][0]['value'];
+  }
+  $token_replacements[$original] = implode('; ', $authors) . '; ';
+  return $token_replacements;
+}
+
+function _fs_publication_token_authors_family($node, $token_replacements, $name, $original){
+  $authors = [];
+  foreach ($node->field_publication_author[LANGUAGE_NONE] as $paragraphs) {
+    $person = [];
+    $person['@type'] = 'Person';
+    $paragraph = entity_load_single('paragraphs_item', $paragraphs['value']);
+    $author = entity_load_single('node', $paragraph->field_publication_author_name[LANGUAGE_NONE][0]['target_id']);
+    $authors[] = $author->field_last_name[LANGUAGE_NONE][0]['value'];
+  }
+  $token_replacements[$original] = implode('; ', $authors) . '; ';
+  return $token_replacements;
+}
+
+
+
+
+

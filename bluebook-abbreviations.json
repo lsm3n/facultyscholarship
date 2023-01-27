@@ -1,0 +1,3414 @@
+[
+ {
+   "Title": "ABA Journal",
+   "Abbreviation": "A.B.A. J."
+ },
+ {
+   "Title": "Academ[ic, y]",
+   "Abbreviation": "Acad."
+ },
+ {
+   "Title": "Account [ant, ants, ing, ancy]",
+   "Abbreviation": "Acct."
+ },
+ {
+   "Title": "Administrat[ive, or, ion]",
+   "Abbreviation": "Admin."
+ },
+ {
+   "Title": "Administrative Law Journal",
+   "Abbreviation": "Admin. L.J."
+ },
+ {
+   "Title": "Administrative Law Journal of American University",
+   "Abbreviation": "Admin. L.J. Am. U."
+ },
+ {
+   "Title": "Administrative Law Review",
+   "Abbreviation": "Admin. L. Rev."
+ },
+ {
+   "Title": "Advoca[te, cy]",
+   "Abbreviation": "Advoc."
+ },
+ {
+   "Title": "Affairs",
+   "Abbreviation": "Aff."
+ },
+ {
+   "Title": "Africa[n]",
+   "Abbreviation": "Afr."
+ },
+ {
+   "Title": "African-American Law & Policy Report",
+   "Abbreviation": "Afr.-Am. L. & Pol’y Rep."
+ },
+ {
+   "Title": "Agricultur[e, al]",
+   "Abbreviation": "Agric."
+ },
+ {
+   "Title": "Air",
+   "Abbreviation": "Air"
+ },
+ {
+   "Title": "Air Force Law Review",
+   "Abbreviation": "A.F.L. Rev."
+ },
+ {
+   "Title": "Akron Law Review",
+   "Abbreviation": "Akron L. Rev."
+ },
+ {
+   "Title": "Alabama Law Review",
+   "Abbreviation": "Ala. L. Rev."
+ },
+ {
+   "Title": "Alaska Law Review",
+   "Abbreviation": "Alaska L. Rev."
+ },
+ {
+   "Title": "Albany Law Journal of Science & Technology",
+   "Abbreviation": "Alb. L.J. Sci. & Tech"
+ },
+ {
+   "Title": "Albany Law Review",
+   "Abbreviation": "Alb. L. Rev."
+ },
+ {
+   "Title": "America[n, s]",
+   "Abbreviation": "Am."
+ },
+ {
+   "Title": "American Bankruptcy Law Journal",
+   "Abbreviation": "Am. Bankr. L.J."
+ },
+ {
+   "Title": "American Bar Association",
+   "Abbreviation": "A.B.A."
+ },
+ {
+   "Title": "American Bar Foundation Research Journal",
+   "Abbreviation": "Am. B. Found. Res. J."
+ },
+ {
+   "Title": "American Criminal Law Review",
+   "Abbreviation": "Am. Crim. L. Rev."
+ },
+ {
+   "Title": "American Indian Law Review",
+   "Abbreviation": "Am. Indian L. Rev."
+ },
+ {
+   "Title": "American Journal of Comparative Law",
+   "Abbreviation": "Am. J. Comp. L."
+ },
+ {
+   "Title": "American Journal of Criminal Law",
+   "Abbreviation": "Am. J. Crim. L."
+ },
+ {
+   "Title": "American Journal of International Arbitration",
+   "Abbreviation": "Am. J. Int'l Arb."
+ },
+ {
+   "Title": "American Journal of Jurisprudence",
+   "Abbreviation": "Am. J. Juris."
+ },
+ {
+   "Title": "American Journal of Law & Medicine",
+   "Abbreviation": "Am. J.L. & Med."
+ },
+ {
+   "Title": "American Journal of Legal History",
+   "Abbreviation": "Am. J. Legal Hist."
+ },
+ {
+   "Title": "American Journal of Trial Advocacy",
+   "Abbreviation": "Am. J. Trial Advoc."
+ },
+ {
+   "Title": "American Law Institute",
+   "Abbreviation": "A.L.I."
+ },
+ {
+   "Title": "American Law Reports",
+   "Abbreviation": "A.L.R."
+ },
+ {
+   "Title": "American University International Law Review",
+   "Abbreviation": "Am. U. Int'l L. Rev."
+ },
+ {
+   "Title": "American University Law Review",
+   "Abbreviation": "Am. U. L. Rev."
+ },
+ {
+   "Title": "Anglo-American Law Review",
+   "Abbreviation": "Anglo-Am. L. Rev."
+ },
+ {
+   "Title": "Animal Law",
+   "Abbreviation": "Animal L."
+ },
+ {
+   "Title": "Annals",
+   "Abbreviation": "Annals"
+ },
+ {
+   "Title": "Annals of the American Academy of Political and Social Science",
+   "Abbreviation": "Annals Am. Acad. Pol. & Soc. Sci."
+ },
+ {
+   "Title": "Annals of Health Law",
+   "Abbreviation": "Annals Health L."
+ },
+ {
+   "Title": "Annual",
+   "Abbreviation": "Ann."
+ },
+ {
+   "Title": "Annual Review of Banking Law",
+   "Abbreviation": "Ann. Rev. Banking L."
+ },
+ {
+   "Title": "Annual Survey of American Law",
+   "Abbreviation": "Ann. Surv. Am. L."
+ },
+ {
+   "Title": "Annual Survey of International and Comparative Law",
+   "Abbreviation": "Ann. Surv. Int’l & Comp. L."
+ },
+ {
+   "Title": "Antitrust",
+   "Abbreviation": "Antitrust"
+ },
+ {
+   "Title": "Appellate",
+   "Abbreviation": "App."
+ },
+ {
+   "Title": "Arbitrat[ion, ors]",
+   "Abbreviation": "Arb."
+ },
+ {
+   "Title": "Arizona Law Review",
+   "Abbreviation": "Ariz. L. Rev."
+ },
+ {
+   "Title": "Arizona State Law Journal",
+   "Abbreviation": "Ariz. St. L.J."
+ },
+ {
+   "Title": "Arkansas Law Review",
+   "Abbreviation": "Ark. L. Rev."
+ },
+ {
+   "Title": "Army Lawyer",
+   "Abbreviation": "Army Law."
+ },
+ {
+   "Title": "Association",
+   "Abbreviation": "Ass'n"
+ },
+ {
+   "Title": "Atomic Energy Law Journal",
+   "Abbreviation": "Atom. Energy L.J."
+ },
+ {
+   "Title": "Attorney[s]",
+   "Abbreviation": "Att'y[s]"
+ },
+ {
+   "Title": "Auckland University Law Review",
+   "Abbreviation": "Auckland U. L. Rev."
+ },
+ {
+   "Title": "Banking Law Journal",
+   "Abbreviation": "Banking L.J."
+ },
+ {
+   "Title": "Bankruptcy",
+   "Abbreviation": "Bankr."
+ },
+ {
+   "Title": "Bankruptcy Developments Journal",
+   "Abbreviation": "Bankr. Dev. J."
+ },
+ {
+   "Title": "Bar",
+   "Abbreviation": "B."
+ },
+ {
+   "Title": "Baylor Law Review",
+   "Abbreviation": "Baylor L. Rev."
+ },
+ {
+   "Title": "Behavior [al]",
+   "Abbreviation": "Behav."
+ },
+ {
+   "Title": "Behaviorial Sciences and the Law",
+   "Abbreviation": "Behav. Sci. & L."
+ },
+ {
+   "Title": "Berkeley Journal of Employment and Labor Law",
+   "Abbreviation": "Berkeley J. Emp. & Lab. L."
+ },
+ {
+   "Title": "Berkeley Journal of Health Care Law",
+   "Abbreviation": "Berkeley J. Health Care L."
+ },
+ {
+   "Title": "Berkeley Journal of International Law",
+   "Abbreviation": "Berkeley J. Int'l L."
+ },
+ {
+   "Title": "Berkeley Technology Law Journal",
+   "Abbreviation": "Berkeley Tech. L.J."
+ },
+ {
+   "Title": "Berkeley Women's Law Journal",
+   "Abbreviation": "Berkeley Women's L.J."
+ },
+ {
+   "Title": "Black Law Journal",
+   "Abbreviation": "Black L.J."
+ },
+ {
+   "Title": "Boston College Environmental Affairs Law Review",
+   "Abbreviation": "B.C. Envtl. Aff. L. Rev."
+ },
+ {
+   "Title": "Boston College International and Comparative Law Review",
+   "Abbreviation": "B.C. Int'l & Comp. L. Rev."
+ },
+ {
+   "Title": "Boston College Law Review",
+   "Abbreviation": "B.C.L. Rev."
+ },
+ {
+   "Title": "Boston College Third World Law Journal",
+   "Abbreviation": "B.C. Third World L.J."
+ },
+ {
+   "Title": "Boston University International Law Journal",
+   "Abbreviation": "B.U. Int'l L.J."
+ },
+ {
+   "Title": "Boston University Journal of Science & Technology Law",
+   "Abbreviation": "B.U. J.Sci. & Tech. L."
+ },
+ {
+   "Title": "Boston University Journal of Tax Law",
+   "Abbreviation": "B.U. J. Tax L."
+ },
+ {
+   "Title": "Boston University Law Review",
+   "Abbreviation": "B.U. L. Rev."
+ },
+ {
+   "Title": "Boston University Public Interest Law Journal",
+   "Abbreviation": "B.U. Pub. Int. L.J."
+ },
+ {
+   "Title": "Brandeis Law Journal",
+   "Abbreviation": "Brandeis L.J."
+ },
+ {
+   "Title": "Briefcase",
+   "Abbreviation": "Briefcase"
+ },
+ {
+   "Title": "Brigham Young University Journal of Public Law",
+   "Abbreviation": "BYU J. Pub. L."
+ },
+ {
+   "Title": "Brigham Young University Law Review",
+   "Abbreviation": "BYU L. Rev."
+ },
+ {
+   "Title": "British",
+   "Abbreviation": "Brit."
+ },
+ {
+   "Title": "Brooklyn Journal of International Law",
+   "Abbreviation": "Brook. J. Int'l L."
+ },
+ {
+   "Title": "Brooklyn Law Review",
+   "Abbreviation": "Brook. L. Rev."
+ },
+ {
+   "Title": "Buffalo Criminal Law Review",
+   "Abbreviation": "Buff. Crim. L. Rev."
+ },
+ {
+   "Title": "Buffalo Environmental Law Journal",
+   "Abbreviation": "Buff. Envtl. L.J."
+ },
+ {
+   "Title": "Buffalo Human Rights Law Review",
+   "Abbreviation": "BUff. Hum. Rts. L. Rev."
+ },
+ {
+   "Title": "Buffalo Law Rev.",
+   "Abbreviation": "Buff. L. Rev."
+ },
+ {
+   "Title": "Buffalo Public Interest Law Journal",
+   "Abbreviation": "Buff. Pub. Int. L.J."
+ },
+ {
+   "Title": "Buffalo Women's Law Journal",
+   "Abbreviation": "Buff. Women's L.J."
+ },
+ {
+   "Title": "Bulletin",
+   "Abbreviation": "Bull."
+ },
+ {
+   "Title": "Business",
+   "Abbreviation": "Bus."
+ },
+ {
+   "Title": "Business Law Journal",
+   "Abbreviation": "Bus. L.J."
+ },
+ {
+   "Title": "Business Lawyer",
+   "Abbreviation": "Bus. Law."
+ },
+ {
+   "Title": "Business Week",
+   "Abbreviation": "Bus. Wk."
+ },
+ {
+   "Title": "California Law Review",
+   "Abbreviation": "Cal. L. Rev."
+ },
+ {
+   "Title": "California Regulatory Law Reporter",
+   "Abbreviation": "Cal. Reg. L. Rep."
+ },
+ {
+   "Title": "California State Bar Journal",
+   "Abbreviation": "Cal. St. B.J."
+ },
+ {
+   "Title": "California Western International Law Journal",
+   "Abbreviation": "Cal. W. Int'l Int'l L.J."
+ },
+ {
+   "Title": "California Western Law Review",
+   "Abbreviation": "Cal. W. L. Rev."
+ },
+ {
+   "Title": "Cambridge Law Journal",
+   "Abbreviation": "Cambridge L.J."
+ },
+ {
+   "Title": "Campbell Law Review",
+   "Abbreviation": "Campbell L. Rev."
+ },
+ {
+   "Title": "Canada- United States Law Journal",
+   "Abbreviation": "Can.-U.S. L.J."
+ },
+ {
+   "Title": "Capital Defense Digest",
+   "Abbreviation": "Cap. Def. Dig."
+ },
+ {
+   "Title": "Capital University Law Review",
+   "Abbreviation": "Cap. U. L. Rev."
+ },
+ {
+   "Title": "Cardozo Arts & Entertainment Law Journal",
+   "Abbreviation": "Cardozo Arts & Ent. L.J."
+ },
+ {
+   "Title": "Cardozo Law Review",
+   "Abbreviation": "Cardozo L. Rev."
+ },
+ {
+   "Title": "Cardozo Online Journal of Conflict Resolution",
+   "Abbreviation": "Cardozo Online J. Conflict Resol."
+ },
+ {
+   "Title": "Cardozo Women's Law Journal",
+   "Abbreviation": "Cardozo Women's L.J."
+ },
+ {
+   "Title": "Case & Comment",
+   "Abbreviation": "Case & Comment"
+ },
+ {
+   "Title": "Case Western Reserve Journal of International Law",
+   "Abbreviation": "Case W. Res. J. Int'l L."
+ },
+ {
+   "Title": "Case Western Reserve Law Review",
+   "Abbreviation": "Case W. Res. L. Rev."
+ },
+ {
+   "Title": "Catholic Lawyer",
+   "Abbreviation": "Cath. Law"
+ },
+ {
+   "Title": "Catholic University Law Review",
+   "Abbreviation": "Cath. U. L. Rev."
+ },
+ {
+   "Title": "Central",
+   "Abbreviation": "Cent."
+ },
+ {
+   "Title": "Chapman Law Review",
+   "Abbreviation": "Chap. L. Rev."
+ },
+ {
+   "Title": "Chartered Life Underwriters",
+   "Abbreviation": "C.L.U."
+ },
+ {
+   "Title": "Chicago Tribune",
+   "Abbreviation": "Chi. Trib."
+ },
+ {
+   "Title": "Chicago-Kent Law Review",
+   "Abbreviation": "Chi.-Kent L. Rev."
+ },
+ {
+   "Title": "Chicano Law Review",
+   "Abbreviation": "Chicano L. Rev."
+ },
+ {
+   "Title": "Chicano-Latino Law Review",
+   "Abbreviation": "Chicano-Latino L. Rev."
+ },
+ {
+   "Title": "Child[ren, ren's]",
+   "Abbreviation": "Child."
+ },
+ {
+   "Title": "Children's Legal Rights Journal",
+   "Abbreviation": "Child. Legal Rts. J."
+ },
+ {
+   "Title": "Chronicle",
+   "Abbreviation": "Chron."
+ },
+ {
+   "Title": "Civil",
+   "Abbreviation": "Civ."
+ },
+ {
+   "Title": "Civil Libert[y, ies]",
+   "Abbreviation": "C.L."
+ },
+ {
+   "Title": "Civil Rights",
+   "Abbreviation": "C.R."
+ },
+ {
+   "Title": "Clearinghouse Review",
+   "Abbreviation": "Clearinghouse Rev."
+ },
+ {
+   "Title": "Cleveland State Law Review",
+   "Abbreviation": "Clev. St. L. Rev."
+ },
+ {
+   "Title": "Cleveland-Marshall Law Review",
+   "Abbreviation": "Clev.-Marshall L. Rev."
+ },
+ {
+   "Title": "Clinical Law Review",
+   "Abbreviation": "Clinical L. Rev."
+ },
+ {
+   "Title": "College",
+   "Abbreviation": "C."
+ },
+ {
+   "Title": "Colorado Journal of International Environmental Law and Policy",
+   "Abbreviation": "Colo. J. Int'l Envtl. L. & Pol'y"
+ },
+ {
+   "Title": "Colorado Lawyer",
+   "Abbreviation": "Colo. Law."
+ },
+ {
+   "Title": "Columbia Business Law Review",
+   "Abbreviation": "Colum. Bus. L. Rev."
+ },
+ {
+   "Title": "Columbia Human Rights Law Review",
+   "Abbreviation": "Colum. Hum. Rts. L. Rev."
+ },
+ {
+   "Title": "Columbia Journal of Asian Law",
+   "Abbreviation": "Colum. J. Asian L."
+ },
+ {
+   "Title": "Columbia Journal of East European Law",
+   "Abbreviation": "Colum. J. E. Eur. L."
+ },
+ {
+   "Title": "Columbia Journal of Environmental Law",
+   "Abbreviation": "Columb. J. Envtl. L."
+ },
+ {
+   "Title": "Columbia Journal of European Law",
+   "Abbreviation": "Colum. J. Eur. L."
+ },
+ {
+   "Title": "Columbia Journal of Gender and Law",
+   "Abbreviation": "Colum. J. Gender & L."
+ },
+ {
+   "Title": "Columbia Journal of Law and Social Problems",
+   "Abbreviation": "Colum. J.L. & Soc. Probs."
+ },
+ {
+   "Title": "Columbia Journal of Transnational Law",
+   "Abbreviation": "Colum. J. Transnat'l L."
+ },
+ {
+   "Title": "Columbia Law Review",
+   "Abbreviation": "Colum. L. Rev."
+ },
+ {
+   "Title": "Columbia Science and Technology Law Review",
+   "Abbreviation": "Colum. Sci. & Tech. L. Rev."
+ },
+ {
+   "Title": "Columbia-VLA Journal of Law & the Arts",
+   "Abbreviation": "Colum.-VLA J.L. & Arts"
+ },
+ {
+   "Title": "Commentary",
+   "Abbreviation": "Comment."
+ },
+ {
+   "Title": "Commerc[e, ial]",
+   "Abbreviation": "Com."
+ },
+ {
+   "Title": "Common Market Law Review",
+   "Abbreviation": "Common Mkt. L. Rev."
+ },
+ {
+   "Title": "Communication [s]",
+   "Abbreviation": "Comm."
+ },
+ {
+   "Title": "Comparative",
+   "Abbreviation": "Comp."
+ },
+ {
+   "Title": "Comparative Labor Law Journal",
+   "Abbreviation": "Comp. Lab. L.J."
+ },
+ {
+   "Title": "Comparative Labor Law & Policy Journal",
+   "Abbreviation": "Comp. Lab. L. & Pol'y J."
+ },
+ {
+   "Title": "Computer",
+   "Abbreviation": "Computer"
+ },
+ {
+   "Title": "Computer/Law Journal",
+   "Abbreviation": "Computer/L.J."
+ },
+ {
+   "Title": "Conference",
+   "Abbreviation": "Conf."
+ },
+ {
+   "Title": "Congressional",
+   "Abbreviation": "Cong."
+ },
+ {
+   "Title": "Congressional Digest",
+   "Abbreviation": "Cong. Dig."
+ },
+ {
+   "Title": "Connecticut Journal of International Law",
+   "Abbreviation": "Conn. J. Int'l L."
+ },
+ {
+   "Title": "Connecticut Law Review",
+   "Abbreviation": "Conn. L. Rev."
+ },
+ {
+   "Title": "Connecticut Probate Law Journal",
+   "Abbreviation": "Conn. Prob. L.J."
+ },
+ {
+   "Title": "Constitution [al]",
+   "Abbreviation": "Const."
+ },
+ {
+   "Title": "Consumer",
+   "Abbreviation": "Consumer"
+ },
+ {
+   "Title": "Contemporary",
+   "Abbreviation": "Contemp."
+ },
+ {
+   "Title": "Contract [s]",
+   "Abbreviation": "Cont."
+ },
+ {
+   "Title": "Conveyancer and Property Lawyer (new series)",
+   "Abbreviation": "Conv. & Prop. Law. (n.s.)"
+ },
+ {
+   "Title": "Cooley Law Review",
+   "Abbreviation": "Cooley L. Rev."
+ },
+ {
+   "Title": "Copyright Law Symposium (American Society of Composers, Authors, &        Publishers)",
+   "Abbreviation": "Copyright L. Symp. (ASCAP)"
+ },
+ {
+   "Title": "Cornell International Law Journal",
+   "Abbreviation": "Cornell Int'l L.J."
+ },
+ {
+   "Title": "Cornell Journal of Law and Public Policy",
+   "Abbreviation": "Cornell J.L. & Pub. Pol'y"
+ },
+ {
+   "Title": "Cornell Law Review",
+   "Abbreviation": "Cornell L. Rev."
+ },
+ {
+   "Title": "Corporat[e, ion]",
+   "Abbreviation": "Corp."
+ },
+ {
+   "Title": "Counsel [or, ors, or's]",
+   "Abbreviation": "Couns."
+ },
+ {
+   "Title": "Court [s]",
+   "Abbreviation": "Ct[s]."
+ },
+ {
+   "Title": "Creighton Law Review",
+   "Abbreviation": "Creighton L. Rev."
+ },
+ {
+   "Title": "Crime",
+   "Abbreviation": "Crime"
+ },
+ {
+   "Title": "Criminal",
+   "Abbreviation": "Crim."
+ },
+ {
+   "Title": "Criminal Law Forum",
+   "Abbreviation": "Crim. L. Rev."
+ },
+ {
+   "Title": "Criminology",
+   "Abbreviation": "Criminology"
+ },
+ {
+   "Title": "Cumberland Law Review",
+   "Abbreviation": "Cumb. L. Rev."
+ },
+ {
+   "Title": "Current Medecine for Attorneys",
+   "Abbreviation": "Current Med. for Att'ys"
+ },
+ {
+   "Title": "Currents: The International Trade Law Journal",
+   "Abbreviation": "Currents: Int'l Trade L.J."
+ },
+ {
+   "Title": "Dalhousie Law Journal",
+   "Abbreviation": "Dalhousie L.J."
+ },
+ {
+   "Title": "DePaul Business Law Journal",
+   "Abbreviation": "DePaul Bus. L.J."
+ },
+ {
+   "Title": "DePaul Journal of Health Care Law",
+   "Abbreviation": "DePaul J. Health Care L."
+ },
+ {
+   "Title": "DePaul Law Review",
+   "Abbreviation": "DePaul L. Rev."
+ },
+ {
+   "Title": "DePaul-LCA Journal of Art and Entertainment Law and Policy",
+   "Abbreviation": "DePaul-LCA J. Art. & Ent. L. & Pol'y"
+ },
+ {
+   "Title": "Defense",
+   "Abbreviation": "Def."
+ },
+ {
+   "Title": "Deleware Journal of Corporate Law",
+   "Abbreviation": "Del. J. Corp. L."
+ },
+ {
+   "Title": "Delinquency",
+   "Abbreviation": "Delinq."
+ },
+ {
+   "Title": "Denver Journal of International Law and Policy",
+   "Abbreviation": "Denv. J. Int'l L. & Pol'y"
+ },
+ {
+   "Title": "Denver University Law Review",
+   "Abbreviation": "Denver U. L. Rev."
+ },
+ {
+   "Title": "Department of State Bulletin",
+   "Abbreviation": "Dep't. St. Bull."
+ },
+ {
+   "Title": "Development [s]",
+   "Abbreviation": "Dev."
+ },
+ {
+   "Title": "Dickinson Journal of Environmental Law & Policy",
+   "Abbreviation": "Dick. J. Envtl. L. & Pol'y"
+ },
+ {
+   "Title": "Dickinson Journal of International Law",
+   "Abbreviation": "Dick. J. Int'l. L."
+ },
+ {
+   "Title": "Dickinson Law Review",
+   "Abbreviation": "Dick. L. Rev."
+ },
+ {
+   "Title": "Digest",
+   "Abbreviation": "Dig"
+ },
+ {
+   "Title": "The Digest: The National Italian-American Bar Assn. Law Journal",
+   "Abbreviation": "Digest"
+ },
+ {
+   "Title": "Diplomacy",
+   "Abbreviation": "Dipl."
+ },
+ {
+   "Title": "Dispute",
+   "Abbreviation": "Disp."
+ },
+ {
+   "Title": "District of Columbia Law Review",
+   "Abbreviation": "D.C. L. Rev."
+ },
+ {
+   "Title": "Drake Journal of Agricultural Law",
+   "Abbreviation": "Drake J. Agric. L."
+ },
+ {
+   "Title": "Drake Law Review",
+   "Abbreviation": "Drake L. Rev."
+ },
+ {
+   "Title": "Duke Environmental Law & Policy Forum",
+   "Abbreviation": "Duke Envtl. L. & Pol'y F."
+ },
+ {
+   "Title": "Duke Journal of Comparative & International Law",
+   "Abbreviation": "Duke J. Comp. & Int'l L."
+ },
+ {
+   "Title": "Duke Journal of Gender Law & Policy",
+   "Abbreviation": "Duke J. Gender L. & Pol'y"
+ },
+ {
+   "Title": "Duke Law Journal",
+   "Abbreviation": "Duke L.J."
+ },
+ {
+   "Title": "Duquesne Business Law Journal",
+   "Abbreviation": "Duq. Bus. L.J."
+ },
+ {
+   "Title": "Duquesne Law Review",
+   "Abbreviation": "Duq. L. Rev."
+ },
+ {
+   "Title": "East [ern]",
+   "Abbreviation": "E."
+ },
+ {
+   "Title": "Ecology Law Quarterly",
+   "Abbreviation": "Ecology L.Q."
+ },
+ {
+   "Title": "Econom [ic, ics, y]",
+   "Abbreviation": "Econ."
+ },
+ {
+   "Title": "Economist",
+   "Abbreviation": "Economist"
+ },
+ {
+   "Title": "Education [al]",
+   "Abbreviation": "Educ."
+ },
+ {
+   "Title": "Elder Law Journal",
+   "Abbreviation": "Elder L.J."
+ },
+ {
+   "Title": "Elder's Advisor: The Journal of Elder Law and Post-Retirement Planning",
+   "Abbreviation": "Elder's Advisor"
+ },
+ {
+   "Title": "Emory International Law Review",
+   "Abbreviation": "Emory Int'l L. Rev."
+ },
+ {
+   "Title": "Emory Law Journal",
+   "Abbreviation": "Emory L.J."
+ },
+ {
+   "Title": "Employment",
+   "Abbreviation": "Emp."
+ },
+ {
+   "Title": "Energy",
+   "Abbreviation": "Energy"
+ },
+ {
+   "Title": "English",
+   "Abbreviation": "Emg."
+ },
+ {
+   "Title": "Entertainment",
+   "Abbreviation": "Ent."
+ },
+ {
+   "Title": "Environment",
+   "Abbreviation": "Env't"
+ },
+ {
+   "Title": "Environmental",
+   "Abbreviation": "Envtl."
+ },
+ {
+   "Title": "Environmental Law",
+   "Abbreviation": "Envtl. L."
+ },
+ {
+   "Title": "Environmental Lawyer",
+   "Abbreviation": "Envtl. Law."
+ },
+ {
+   "Title": "Estate [s]",
+   "Abbreviation": "Est."
+ },
+ {
+   "Title": "Ethics",
+   "Abbreviation": "Ethics"
+ },
+ {
+   "Title": "Europe [an]",
+   "Abbreviation": "Eur."
+ },
+ {
+   "Title": "Faculty",
+   "Abbreviation": "Fac."
+ },
+ {
+   "Title": "Family",
+   "Abbreviation": "Fam."
+ },
+ {
+   "Title": "Family and Conciliation Courts Review",
+   "Abbreviation": "Fam. & Conciliation Cts. Rev."
+ },
+ {
+   "Title": "Family Law Quarterly",
+   "Abbreviation": "Fam. L.Q."
+ },
+ {
+   "Title": "Federal",
+   "Abbreviation": "Fed."
+ },
+ {
+   "Title": "Federal Circuit Bar Journal",
+   "Abbreviation": "Fed. Cir. B.J."
+ },
+ {
+   "Title": "Federal Communications Law Journal",
+   "Abbreviation": "Fed. Com. L.J."
+ },
+ {
+   "Title": "Federal Probabtion",
+   "Abbreviation": "Fed. Probation"
+ },
+ {
+   "Title": "Federation",
+   "Abbreviation": "Fed'n"
+ },
+ {
+   "Title": "Financ[e, ial]",
+   "Abbreviation": "Fin"
+ },
+ {
+   "Title": "Florida Journal of International Law",
+   "Abbreviation": "Fla. J. Int'l L."
+ },
+ {
+   "Title": "Florida Law Review",
+   "Abbreviation": "Fla. L. Rev."
+ },
+ {
+   "Title": "Florida State Journal of Transnational Law Policy",
+   "Abbreviation": "Fla. St. J. Transnat'l L. & Pol'y"
+ },
+ {
+   "Title": "Florida State University Journal of Land Use & Environmental Law",
+   "Abbreviation": "Fla. S. U. J. Land Use & Envtl. L."
+ },
+ {
+   "Title": "Florida State University Law Review",
+   "Abbreviation": "Fla. St. U. L. Rev."
+ },
+ {
+   "Title": "Food Drug Cosmetic Law Journal",
+   "Abbreviation": "Fodd Drug Cosm. L.J."
+ },
+ {
+   "Title": "For",
+   "Abbreviation": "For"
+ },
+ {
+   "Title": "Fordham Environmental Law Journal",
+   "Abbreviation": "Fordham Envtl. L.J."
+ },
+ {
+   "Title": "Fordham Intellectual Property, Media & Entertainment Law Journal",
+   "Abbreviation": "Fordham Intell. Prop. Media & Ent. L.J."
+ },
+ {
+   "Title": "Fordham International Law Journal",
+   "Abbreviation": "Fordham Int'l L.J."
+ },
+ {
+   "Title": "Fordham Law Review",
+   "Abbreviation": "Fordham L. Rev."
+ },
+ {
+   "Title": "Fordham Urban Law Journal",
+   "Abbreviation": "Fordham Urb. L.J."
+ },
+ {
+   "Title": "Foreign",
+   "Abbreviation": "Foreign"
+ },
+ {
+   "Title": "Foreign Broadcast Information Service",
+   "Abbreviation": "F.B.I.S."
+ },
+ {
+   "Title": "Forensic",
+   "Abbreviation": "Forensic"
+ },
+ {
+   "Title": "Fortnightly",
+   "Abbreviation": "Fort."
+ },
+ {
+   "Title": "Fortune",
+   "Abbreviation": "Fortune"
+ },
+ {
+   "Title": "Forum",
+   "Abbreviation": "F."
+ },
+ {
+   "Title": "Foundation [s]",
+   "Abbreviation": "Found."
+ },
+ {
+   "Title": "Gender",
+   "Abbreviation": "Gender"
+ },
+ {
+   "Title": "George Mason Law Review",
+   "Abbreviation": "Geo. Mason L. Rev."
+ },
+ {
+   "Title": "George Mason University Civil Rights Law Journal",
+   "Abbreviation": "Geo. Mason U. Civ. Rts. L.J."
+ },
+ {
+   "Title": "George Washington Journal of International Law and Economics",
+   "Abbreviation": "Geo. Wash. J. Int'l L. & Econ."
+ },
+ {
+   "Title": "George Washington Law Review",
+   "Abbreviation": "Geo. Wash. L. Rev."
+ },
+ {
+   "Title": "Georgetown Immigration Law Journal",
+   "Abbreviation": "Geo. Immigr. L.J."
+ },
+ {
+   "Title": "Georgetown International Environmental Law Review",
+   "Abbreviation": "Geo. Int'l Envtl. L. Rev."
+ },
+ {
+   "Title": "Georgetown Journal of Gender and the Law",
+   "Abbreviation": "Geo. J. Gender & L."
+ },
+ {
+   "Title": "Georgetown Journal of Legal Ethics",
+   "Abbreviation": "Geo. J. Legal Ethics"
+ },
+ {
+   "Title": "Georgetown Journal on Poverty Law and Policy",
+   "Abbreviation": "Geo. J. on Poverty L. & Pol'y"
+ },
+ {
+   "Title": "Georgetown Law Journal",
+   "Abbreviation": "Geo. L.J."
+ },
+ {
+   "Title": "Georgia Journal of International and Comparative Law",
+   "Abbreviation": "Ga. J. Int'l & Comp. L."
+ },
+ {
+   "Title": "Georgia Law Review",
+   "Abbreviation": "Ga. L. Rev."
+ },
+ {
+   "Title": "Georgia State University Law Review",
+   "Abbreviation": "Ga. St. U. L. Rev."
+ },
+ {
+   "Title": "Glendale Law Review",
+   "Abbreviation": "Glendale L. Rev."
+ },
+ {
+   "Title": "Golden Gate University Law Review",
+   "Abbreviation": "Golden Gate U. L. Rev."
+ },
+ {
+   "Title": "Gonzaga Law Review",
+   "Abbreviation": "Gonz. L. Rev."
+ },
+ {
+   "Title": "Government",
+   "Abbreviation": "Gov't"
+ },
+ {
+   "Title": "Great Plains Natural Resources Journal",
+   "Abbreviation": "Great Plains Nat. Resources J."
+ },
+ {
+   "Title": "Guild Practitioner",
+   "Abbreviation": "Guild Prac."
+ },
+ {
+   "Title": "Hamline Journal of Public Law and Policy",
+   "Abbreviation": "Hamline L. Rev."
+ },
+ {
+   "Title": "Harvard BlackLetter Law Journal",
+   "Abbreviation": "Harv. BlackLetter L.J."
+ },
+ {
+   "Title": "Harvard Civil Rights-Civil LIberties Law Review",
+   "Abbreviation": "Harv. C.R.-C.L. L. Rev."
+ },
+ {
+   "Title": "Harvard Environmental Law Review",
+   "Abbreviation": "Harv. Envtl. L. Rev."
+ },
+ {
+   "Title": "Harvard Human Rights Journal",
+   "Abbreviation": "Harv. Hum. Rts. J."
+ },
+ {
+   "Title": "Harvard International Law Journal",
+   "Abbreviation": "Harv. Int'l L.J."
+ },
+ {
+   "Title": "Harvard Journal of Law and Public Policy",
+   "Abbreviation": "Harv. J.L. & Pub. Pol'y"
+ },
+ {
+   "Title": "Harvard Journal of Law & Technology",
+   "Abbreviation": "Harv. J.L. & Tech."
+ },
+ {
+   "Title": "Harvard Journal on Legislation",
+   "Abbreviation": "Harv. J. on Legis."
+ },
+ {
+   "Title": "Harvard Law Review",
+   "Abbreviation": "Harv. L. Rev."
+ },
+ {
+   "Title": "Harvard Negotiation Law Review",
+   "Abbreviation": "Harv. Negot. L. Rev."
+ },
+ {
+   "Title": "Harvard Women's Law Journal",
+   "Abbreviation": "Harv. Women's L.J."
+ },
+ {
+   "Title": "Hastings Communications and Entertainment Law Journal",
+   "Abbreviation": "Hastings Comm. & Ent. L.J."
+ },
+ {
+   "Title": "Hastings Constitutional Law Quarterly",
+   "Abbreviation": "Hastings Const. L.Q."
+ },
+ {
+   "Title": "Hastings Internationaland Comparative Law Review",
+   "Abbreviation": "Hastings Int'l & Comp. L. Rev."
+ },
+ {
+   "Title": "Hastings Law Journal",
+   "Abbreviation": "Hastings L.J."
+ },
+ {
+   "Title": "Hastings West-Northwest Journal of Environmental Law and Policy",
+   "Abbreviation": "Hastings W.-Nw. J. Envtl. L. & Pol'y"
+ },
+ {
+   "Title": "Hastings Women's Law Journal",
+   "Abbreviation": "Hastings Women's L.J."
+ },
+ {
+   "Title": "Health",
+   "Abbreviation": "Health"
+ },
+ {
+   "Title": "Health Matrix",
+   "Abbreviation": "Health Matrix"
+ },
+ {
+   "Title": "Herald",
+   "Abbreviation": "Herald"
+ },
+ {
+   "Title": "High Technology Law Journal",
+   "Abbreviation": "High Tech. L.J."
+ },
+ {
+   "Title": "Hispanic",
+   "Abbreviation": "Hisp."
+ },
+ {
+   "Title": "Histor[ical, y]",
+   "Abbreviation": "Hist."
+ },
+ {
+   "Title": "Hofstra Labor & Employment Law Journal",
+   "Abbreviation": "Hofstra Lab. & Emp. L.J."
+ },
+ {
+   "Title": "Hofstra Law Review",
+   "Abbreviation": "Hofstra L. Rev."
+ },
+ {
+   "Title": "Hofstra Property Law Journal",
+   "Abbreviation": "Hofstra Prop. L.J."
+ },
+ {
+   "Title": "Hospital",
+   "Abbreviation": "Hosp."
+ },
+ {
+   "Title": "Houston Journal of International Law",
+   "Abbreviation": "Hous. J. Int'l L."
+ },
+ {
+   "Title": "Houston Law Review",
+   "Abbreviation": "Hous. L. Rev."
+ },
+ {
+   "Title": "Howard Law Journal",
+   "Abbreviation": "How. L.J."
+ },
+ {
+   "Title": "Human",
+   "Abbreviation": "Hum."
+ },
+ {
+   "Title": "Human Rights Quarterly",
+   "Abbreviation": "Hum. Rts. Q."
+ },
+ {
+   "Title": "Humanit[y, ies]",
+   "Abbreviation": "Human."
+ },
+ {
+   "Title": "Idaho Law Review",
+   "Abbreviation": "Idaho L. Rev."
+ },
+ {
+   "Title": "IDEA: The Journal of Law and Technology",
+   "Abbreviation": "IDEA"
+ },
+ {
+   "Title": "Illinois Bar Journal",
+   "Abbreviation": "Ill. B.J."
+ },
+ {
+   "Title": "ILSA Journal of International & Comparative Law",
+   "Abbreviation": "ILSA J. Int'l & Comp. L."
+ },
+ {
+   "Title": "Immigration",
+   "Abbreviation": "Immigr."
+ },
+ {
+   "Title": "Immigration and Nationality Law Review",
+   "Abbreviation": "Immigr. & Nat'lity L. Rev."
+ },
+ {
+   "Title": "In the Public Interest",
+   "Abbreviation": "In Pub. Interest"
+ },
+ {
+   "Title": "Independent",
+   "Abbreviation": "Indep."
+ },
+ {
+   "Title": "Indian",
+   "Abbreviation": "Indian"
+ },
+ {
+   "Title": "Indiana International & Comparative Law Review",
+   "Abbreviation": "Ind. Int'l & Comp. L. Rev."
+ },
+ {
+   "Title": "Indiana Journal of Global Legal Studies",
+   "Abbreviation": "Ind. J. Global Legal Stud."
+ },
+ {
+   "Title": "Indiana Law Journal",
+   "Abbreviation": "Ind. L.J."
+ },
+ {
+   "Title": "Indiana Law Review",
+   "Abbreviation": "Ind. L. Rev."
+ },
+ {
+   "Title": "Industrial",
+   "Abbreviation": "Indus."
+ },
+ {
+   "Title": "Industrial and Labor Relations Review",
+   "Abbreviation": "Indus. & Lab. Rel. Rev."
+ },
+ {
+   "Title": "Information",
+   "Abbreviation": "Info."
+ },
+ {
+   "Title": "Injury",
+   "Abbreviation": "Inj."
+ },
+ {
+   "Title": "Institute",
+   "Abbreviation": "Inst."
+ },
+ {
+   "Title": "Institute on Estate Planning",
+   "Abbreviation": "Inst. on Est. Plan."
+ },
+ {
+   "Title": "Institute on Federal Taxation",
+   "Abbreviation": "Inst. on Fed. Tax'n"
+ },
+ {
+   "Title": "Institute on Oil and Gas Law and Taxation",
+   "Abbreviation": "Inst. on Oil & Gas L. & Tax'n"
+ },
+ {
+   "Title": "Institute on Planning, Zoning, and Eminent Domain",
+   "Abbreviation": "Inst. on Plan. Zoning & Eminent Domain"
+ },
+ {
+   "Title": "Institute on Private Investments and Investors Abroad",
+   "Abbreviation": "Inst. on Priv. Inv. & Inv. Abroad"
+ },
+ {
+   "Title": "Institute on Securities Regulation",
+   "Abbreviation": "Inst. on Sec. Reg."
+ },
+ {
+   "Title": "Insurance",
+   "Abbreviation": "Ins."
+ },
+ {
+   "Title": "Intellectual",
+   "Abbreviation": "Intell."
+ },
+ {
+   "Title": "Interdisciplinary",
+   "Abbreviation": "Interdisc."
+ },
+ {
+   "Title": "Interest",
+   "Abbreviation": "Int."
+ },
+ {
+   "Title": "International",
+   "Abbreviation": "Int'l"
+ },
+ {
+   "Title": "International and Comparative Law Quarterly",
+   "Abbreviation": "Int'l & Comp. L.Q."
+ },
+ {
+   "Title": "International Journal of Law and Psychiatry",
+   "Abbreviation": "Int'l J.L. & Psychiatry"
+ },
+ {
+   "Title": "International Lawyer",
+   "Abbreviation": "Int'l Law."
+ },
+ {
+   "Title": "International Legal Perspectives",
+   "Abbreviation": "Int'l Legal Persp."
+ },
+ {
+   "Title": "International Organization",
+   "Abbreviation": "Int'l Org."
+ },
+ {
+   "Title": "Iowa Law Review",
+   "Abbreviation": "Iowa L. Rev."
+ },
+ {
+   "Title": "JAG Journal",
+   "Abbreviation": "JAG J."
+ },
+ {
+   "Title": "John Marshall Jouranl of Computer & Information Law",
+   "Abbreviation": "J. Marshall J. Computer & Info. L."
+ },
+ {
+   "Title": "John Marshall Law Review",
+   "Abbreviation": "J. Marshall L. Rev."
+ },
+ {
+   "Title": "Journal",
+   "Abbreviation": "J."
+ },
+ {
+   "Title": "Journal of Agricultural Law",
+   "Abbreviation": "J. Agric. L."
+ },
+ {
+   "Title": "Journal of Air Law and Commerce",
+   "Abbreviation": "J. Air L. & Com."
+ },
+ {
+   "Title": "Journal of Business Law",
+   "Abbreviation": "J. Bus. L."
+ },
+ {
+   "Title": "Journal of Chinese Law",
+   "Abbreviation": "J. Chinese L."
+ },
+ {
+   "Title": "Journal of College and University",
+   "Abbreviation": "J.C. & U.L."
+ },
+ {
+   "Title": "Journal of Contemporary Health Law and Policy",
+   "Abbreviation": "J. Contemp. Health L. & Pol'y"
+ },
+ {
+   "Title": "Journal of Contemporary Law",
+   "Abbreviation": "J. Contemp. L."
+ },
+ {
+   "Title": "Journal of Contemporary Legal Issues",
+   "Abbreviation": "J. Contemp. Legal Issues"
+ },
+ {
+   "Title": "Journal of Corporate Taxation",
+   "Abbreviation": "J. COrp. Tax'n"
+ },
+ {
+   "Title": "Journal of Corporation Law",
+   "Abbreviation": "J. Corp. L."
+ },
+ {
+   "Title": "Journal of Criminal Law and Criminology",
+   "Abbreviation": "J. Crim. L. & Criminology"
+ },
+ {
+   "Title": "Journal of Dispute Resolution",
+   "Abbreviation": "J. Disp. Resol."
+ },
+ {
+   "Title": "Journal of Energy Law and Policy",
+   "Abbreviation": "J. Energy L. & Pol'y"
+ },
+ {
+   "Title": "Journal of Energy, Natural Resources, & Environmental Law",
+   "Abbreviation": "J. Energy Nat. Resources & Envtl. L."
+ },
+ {
+   "Title": "Journal of Environmental Law and Litigation",
+   "Abbreviation": "J. Envtl. L. & Litig."
+ },
+ {
+   "Title": "Journal of Family Law",
+   "Abbreviation": "J. Fam. L."
+ },
+ {
+   "Title": "Journal of Gender, Race, and Justice",
+   "Abbreviation": "J. Gender Race & Just."
+ },
+ {
+   "Title": "Journal of Health and Hospital Law",
+   "Abbreviation": "J. Health & Hosp. L."
+ },
+ {
+   "Title": "Journal of Health Care Law & Policy",
+   "Abbreviation": "J. Health Care L. & Pol'y"
+ },
+ {
+   "Title": "Journal of Health Law",
+   "Abbreviation": "J. Health L."
+ },
+ {
+   "Title": "Journal of Intellectual Property",
+   "Abbreviation": "J. Intell. Prop."
+ },
+ {
+   "Title": "Journal of Intellectual Property Law",
+   "Abbreviation": "J. Intell. Prop. L."
+ },
+ {
+   "Title": "Journal of International Arbitration",
+   "Abbreviation": "J. Int'l. Arb."
+ },
+ {
+   "Title": "Journal of International Legal Studies",
+   "Abbreviation": "J. Int'l Legal Stud."
+ },
+ {
+   "Title": "Journal of International Wildlife Law and Policy",
+   "Abbreviation": "J. Int'l Wildlife L. & Pol'y"
+ },
+ {
+   "Title": "Journal of Land, Resources, & Environmental Law",
+   "Abbreviation": "J. Land Resources & Envtl. L."
+ },
+ {
+   "Title": "Journal of Land Use and Environmental Law",
+   "Abbreviation": "J. Land Use & Envtl. L."
+ },
+ {
+   "Title": "Journal of Law and Commerce",
+   "Abbreviation": "J.L. & Com."
+ },
+ {
+   "Title": "Journal of Law and Economics",
+   "Abbreviation": "J.L. & Econ."
+ },
+ {
+   "Title": "Journal of Law and Education",
+   "Abbreviation": "J.L. & Educ."
+ },
+ {
+   "Title": "Journal of Law and Health",
+   "Abbreviation": "J.L. & Health"
+ },
+ {
+   "Title": "Journal of Law and Policy",
+   "Abbreviation": "J.L. & Pol'y"
+ },
+ {
+   "Title": "Journal of Law and Politics",
+   "Abbreviation": "J.L. & Pol."
+ },
+ {
+   "Title": "Journal of Law, Economics & Organization",
+   "Abbreviation": "J.L. Econ. & Org."
+ },
+ {
+   "Title": "Journal of Law in Society",
+   "Abbreviation": "J.L. Soc'y"
+ },
+ {
+   "Title": "Journal of Legal Education",
+   "Abbreviation": "J. Legal Educ."
+ },
+ {
+   "Title": "Journal of Legislation",
+   "Abbreviation": "J. Legis."
+ },
+ {
+   "Title": "Journal of Maritime Law and Commerce",
+   "Abbreviation": "J. Mar. L. & Com."
+ },
+ {
+   "Title": "Journal of Medicine and Law",
+   "Abbreviation": "J. Med. & L."
+ },
+ {
+   "Title": "Journal of Mineral Law & Policy",
+   "Abbreviation": "J. Med. & L."
+ },
+ {
+   "Title": "Journal of Products Liability",
+   "Abbreviation": "J. Prod. Liab."
+ },
+ {
+   "Title": "Journal of Science & Technology Law",
+   "Abbreviation": "J. Sci. & Tech. L."
+ },
+ {
+   "Title": "Journal of Small and Emerging Business Law",
+   "Abbreviation": "J. Small & Emerging Bus. L."
+ },
+ {
+   "Title": "Journal of Southern Legal History",
+   "Abbreviation": "J. S. Legal Hist."
+ },
+ {
+   "Title": "Journal of Space Law",
+   "Abbreviation": "J. Space L."
+ },
+ {
+   "Title": "Journal of Taxation",
+   "Abbreviation": "J. Tax'n"
+ },
+ {
+   "Title": "Journal of Technology Law & Policy",
+   "Abbreviation": "J. Tech. L. & Pol'y"
+ },
+ {
+   "Title": "Journal of the American Academy of Matrimonial Lawyers",
+   "Abbreviation": "J. Am. Acad. Matrim. Law."
+ },
+ {
+   "Title": "Journal of the American Medical Association",
+   "Abbreviation": "JAMA"
+ },
+ {
+   "Title": "Journal of the Legal Profession",
+   "Abbreviation": "J. Legal Prof."
+ },
+ {
+   "Title": "Journal of the Patent and Trademark Office Society",
+   "Abbreviation": "J. Pat. & Trademark Off. Soc'y"
+ },
+ {
+   "Title": "Journal of the Suffolk Academy of Law",
+   "Abbreviation": "J. Suffolk Acad. L."
+ },
+ {
+   "Title": "Judge [s]",
+   "Abbreviation": "Judge [s]"
+ },
+ {
+   "Title": "Judicature",
+   "Abbreviation": "Judicature"
+ },
+ {
+   "Title": "Judicial",
+   "Abbreviation": "Jud."
+ },
+ {
+   "Title": "Juridicial Review",
+   "Abbreviation": "Jurid. Rev."
+ },
+ {
+   "Title": "Jurimetrics: The Journal of Law, Science, and Technology",
+   "Abbreviation": "Jurimetrics J."
+ },
+ {
+   "Title": "Juris Doctor",
+   "Abbreviation": "Juris Dr."
+ },
+ {
+   "Title": "Juris Magazine",
+   "Abbreviation": "Juris Mag."
+ },
+ {
+   "Title": "Jurist",
+   "Abbreviation": "Jurist"
+ },
+ {
+   "Title": "Justice",
+   "Abbreviation": "Just."
+ },
+ {
+   "Title": "Justice System Journal",
+   "Abbreviation": "Just. Sys. J."
+ },
+ {
+   "Title": "Juvenile",
+   "Abbreviation": "Juv."
+ },
+ {
+   "Title": "Kansas Journal of Law and Public Policy",
+   "Abbreviation": "Kan. J.L. & Pub. Pol'y"
+ },
+ {
+   "Title": "Kentucky Law Journal",
+   "Abbreviation": "Ky. L.J."
+ },
+ {
+   "Title": "Labo[r, ur]",
+   "Abbreviation": "Lab."
+ },
+ {
+   "Title": "Labor Law Journal",
+   "Abbreviation": "Lab. L.J."
+ },
+ {
+   "Title": "Labor Lawyer",
+   "Abbreviation": "Lab. Law."
+ },
+ {
+   "Title": "Land",
+   "Abbreviation": "Land"
+ },
+ {
+   "Title": "Land and Water Law Review",
+   "Abbreviation": "Land & Water L. Rev."
+ },
+ {
+   "Title": "La Raza Law Journal",
+   "Abbreviation": "La Raza L.J."
+ },
+ {
+   "Title": "Law (first word)",
+   "Abbreviation": "Law"
+ },
+ {
+   "Title": "Law",
+   "Abbreviation": "L."
+ },
+ {
+   "Title": "Law and Contemporary Problems",
+   "Abbreviation": "Law & Contemp. Probs."
+ },
+ {
+   "Title": "Law and Human Behavior",
+   "Abbreviation": "Law & Hum. Behav."
+ },
+ {
+   "Title": "Law and Inequality",
+   "Abbreviation": "Law & Ineq."
+ },
+ {
+   "Title": "Law and Policy in International Business",
+   "Abbreviation": "Law & Pol'y Int'l Bus."
+ },
+ {
+   "Title": "Law & Psychology Review",
+   "Abbreviation": "Law & Psychol. Rev."
+ },
+ {
+   "Title": "Law & Social Inquiry",
+   "Abbreviation": "Law & Soc. Inquiry"
+ },
+ {
+   "Title": "Law & Society Review",
+   "Abbreviation": "Law & Soc'y Rev."
+ },
+ {
+   "Title": "Law Library Journal",
+   "Abbreviation": "Law Libr. J."
+ },
+ {
+   "Title": "Lawyer [s, s', 's]",
+   "Abbreviation": "Law."
+ },
+ {
+   "Title": "Lawyer's Reports Annotated",
+   "Abbreviation": "L.R.A."
+ },
+ {
+   "Title": "Legal",
+   "Abbreviation": "Legal"
+ },
+ {
+   "Title": "Legislat[ion, ive]",
+   "Abbreviation": "Legis."
+ },
+ {
+   "Title": "Librar[y, ian, ies]",
+   "Abbreviation": "Libr."
+ },
+ {
+   "Title": "Lincoln Law Review",
+   "Abbreviation": "Lincoln L. Rev."
+ },
+ {
+   "Title": "Litigation",
+   "Abbreviation": "Litig."
+ },
+ {
+   "Title": "Local",
+   "Abbreviation": "Loc."
+ },
+ {
+   "Title": "Louisiana Law Review",
+   "Abbreviation": "La. L. Rev."
+ },
+ {
+   "Title": "Loyola Consumer Law Review",
+   "Abbreviation": "Loy. Consumer L. Rev."
+ },
+ {
+   "Title": "Loyola Law Review (New Orleans)",
+   "Abbreviation": "Loy. L. Rev."
+ },
+ {
+   "Title": "Loyola of Los Angeles Entertainment Law Review",
+   "Abbreviation": "Loy. L.A. Ent. L. Rev."
+ },
+ {
+   "Title": "Loyola of Los Angeles International & Comparative Law Review",
+   "Abbreviation": "Loy. L.A. Int'l & Comp. L. Rev."
+ },
+ {
+   "Title": "Loyola of Los Angeles Law Review",
+   "Abbreviation": "Loy. L.A. L. Rev."
+ },
+ {
+   "Title": "Loyola University of Chicago Law Journal",
+   "Abbreviation": "Loy. U. Chi. L.J."
+ },
+ {
+   "Title": "Magazine",
+   "Abbreviation": "Mag."
+ },
+ {
+   "Title": "Maine Law Review",
+   "Abbreviation": "Me. L. Rev."
+ },
+ {
+   "Title": "Major Tax Planning",
+   "Abbreviation": "Major Tax Plan."
+ },
+ {
+   "Title": "Management",
+   "Abbreviation": "Mgmt."
+ },
+ {
+   "Title": "Maritime",
+   "Abbreviation": "Mar."
+ },
+ {
+   "Title": "Marquette Intellectual Property Law Review",
+   "Abbreviation": "Marq. Intell. Prop. L. Rev."
+ },
+ {
+   "Title": "Marquette Law Review",
+   "Abbreviation": "Marq. L. Rev."
+ },
+ {
+   "Title": "Marquette Sports Law Journal",
+   "Abbreviation": "Marq. Sports L.J."
+ },
+ {
+   "Title": "Maryland Journal of Contemporary Legal Issues",
+   "Abbreviation": "Md. J. Contemp. Legal Issues"
+ },
+ {
+   "Title": "Maryland Journal of International Law and Trade",
+   "Abbreviation": "Md. J.Int'l. L. & Trade"
+ },
+ {
+   "Title": "Maryland Law Review",
+   "Abbreviation": "Md. L. Rev."
+ },
+ {
+   "Title": "Massachusetts Law Review",
+   "Abbreviation": "Mass. L. Rev."
+ },
+ {
+   "Title": "McGeorge Law Review",
+   "Abbreviation": "McGeorge L. Rev."
+ },
+ {
+   "Title": "McGill Law Journal",
+   "Abbreviation": "McGill L.J."
+ },
+ {
+   "Title": "Media",
+   "Abbreviation": "Media"
+ },
+ {
+   "Title": "Mediation",
+   "Abbreviation": "Mediation"
+ },
+ {
+   "Title": "Medic[al, ine]",
+   "Abbreviation": "Med."
+ },
+ {
+   "Title": "Melbourne University Law Review",
+   "Abbreviation": "Melb. U. L. Rev."
+ },
+ {
+   "Title": "Mercer Law Review",
+   "Abbreviation": "Mercer L. Rev."
+ },
+ {
+   "Title": "Michigan Business Law Journal",
+   "Abbreviation": "Mich. Bus. L.J."
+ },
+ {
+   "Title": "Michigan Journal of Gender & Law",
+   "Abbreviation": "Michigan J. Gender & L."
+ },
+ {
+   "Title": "Michigan Journal of International Law",
+   "Abbreviation": "Mich. J. Int'l L."
+ },
+ {
+   "Title": "Michigan Journal of Race & Law",
+   "Abbreviation": "Mich. J. Race & L."
+ },
+ {
+   "Title": "Michigan Law Review",
+   "Abbreviation": "Mich. L. Rev."
+ },
+ {
+   "Title": "Michigan Telecommunications and Technology Law Review",
+   "Abbreviation": "Mich. Telecomm. & Tech. L. Rev."
+ },
+ {
+   "Title": "Military Law Review",
+   "Abbreviation": "Mil. L. Rev."
+ },
+ {
+   "Title": "Mineral",
+   "Abbreviation": "Min."
+ },
+ {
+   "Title": "Minnesota Intellectual Property Review",
+   "Abbreviation": "Minn. Intell. Prop. Rev."
+ },
+ {
+   "Title": "Minnesota Journal of Global Trade",
+   "Abbreviation": "Minn. J. Global Trade"
+ },
+ {
+   "Title": "Mississippi College Law Review",
+   "Abbreviation": "Misss. C.L. Rev."
+ },
+ {
+   "Title": "Missippi Law Journal",
+   "Abbreviation": "Miss. L.J."
+ },
+ {
+   "Title": "Missouri Environmental Law and Policy Review",
+   "Abbreviation": "Mo. Envtl. L. & Pol'y Rev."
+ },
+ {
+   "Title": "Missouri Law Review",
+   "Abbreviation": "Mo. L. Rev."
+ },
+ {
+   "Title": "Modern Law Review",
+   "Abbreviation": "Mod. L. Rev."
+ },
+ {
+   "Title": "Monash University Law Review",
+   "Abbreviation": "Monash U. L. Rev."
+ },
+ {
+   "Title": "Montana Law Review",
+   "Abbreviation": "Mont. L. R"
+ },
+ {
+   "Title": "Monthly",
+   "Abbreviation": "Monthly"
+ },
+ {
+   "Title": "Monthly Labor Review",
+   "Abbreviation": "Monthly Lab. Rev."
+ },
+ {
+   "Title": "Municipal",
+   "Abbreviation": "Mun."
+ },
+ {
+   "Title": "National",
+   "Abbreviation": "Nat'l"
+ },
+ {
+   "Title": "National Black Law Journal",
+   "Abbreviation": "Nat'l Black L.J."
+ },
+ {
+   "Title": "Natural",
+   "Abbreviation": "Nat."
+ },
+ {
+   "Title": "Natural Resources Journal",
+   "Abbreviation": "Nat. Resource J."
+ },
+ {
+   "Title": "Nebraska Law Review",
+   "Abbreviation": "Neb. L. Rev."
+ },
+ {
+   "Title": "Negligence",
+   "Abbreviation": "Negl."
+ },
+ {
+   "Title": "New England International and Comparative Law Annual",
+   "Abbreviation": "New Eng. Int'l & Comp. L. Ann."
+ },
+ {
+   "Title": "New England Journal of Medecine",
+   "Abbreviation": "New Eng. J. Med"
+ },
+ {
+   "Title": "New England Journal on Criminal and Civil Confinement",
+   "Abbreviation": "New Eng. J. on Crim. & Civ. Confinement"
+ },
+ {
+   "Title": "New England Law Review",
+   "Abbreviation": "New Eng. L. Rev."
+ },
+ {
+   "Title": "New Law Journal",
+   "Abbreviation": "New L.J."
+ },
+ {
+   "Title": "New Mexico Law Review",
+   "Abbreviation": "N.M. L. Rev"
+ },
+ {
+   "Title": "new series",
+   "Abbreviation": "(n.s.)"
+ },
+ {
+   "Title": "New York City Law Review",
+   "Abbreviation": "N.Y. City L. Rev"
+ },
+ {
+   "Title": "New York International Law Review",
+   "Abbreviation": "N.Y. Int'l L. Rev."
+ },
+ {
+   "Title": "New York Law School Journal of Human Rights",
+   "Abbreviation": "N.Y.L. Sch. J. Hum. Rts."
+ },
+ {
+   "Title": "New York Law School Journal of International and Comparative Law",
+   "Abbreviation": "N.Y.L. Sch. J. Int'l & Comp. L."
+ },
+ {
+   "Title": "New York Law School Review",
+   "Abbreviation": "N.Y.L. Sch. L. Rev."
+ },
+ {
+   "Title": "New York State Bar Association Antitrust Law Symposium",
+   "Abbreviation": "N.Y. St. B.A. Antitrust L. Symp."
+ },
+ {
+   "Title": "New York University Environmental Law Journal",
+   "Abbreviation": "N.Y.U. Envtl. L.J."
+ },
+ {
+   "Title": "New York University Journal of International Law Politics",
+   "Abbreviation": "N.Y.U. J. Int'l L. & Pol."
+ },
+ {
+   "Title": "New York University Journal of Legislation and Public Policy",
+   "Abbreviation": "N.Y.U. J. Legis. & Pub. Pol'y"
+ },
+ {
+   "Title": "New York University Law Review",
+   "Abbreviation": "N.Y.U. L. Rev."
+ },
+ {
+   "Title": "New York University Review of Law and Social Change",
+   "Abbreviation": "N.Y.U. Rev. L. & Soc. Change"
+ },
+ {
+   "Title": "New York University School of Law Moot Court Casebook",
+   "Abbreviation": "N.Y.U. Moot Ct, Casebook"
+ },
+ {
+   "Title": "Newsletter",
+   "Abbreviation": "Newsl."
+ },
+ {
+   "Title": "NEXUS: A Journal of Opinion",
+   "Abbreviation": "NEXUS"
+ },
+ {
+   "Title": "North [ern]",
+   "Abbreviation": "N."
+ },
+ {
+   "Title": "North Carolina Banking Institute",
+   "Abbreviation": "N.C. Banking Inst."
+ },
+ {
+   "Title": "North Carolina Central Law Journal",
+   "Abbreviation": "N.C. Cent. L.J."
+ },
+ {
+   "Title": "North Carolina Central Law Journal",
+   "Abbreviation": "N.C. Cent. L.J."
+ },
+ {
+   "Title": "North Carolina Journal of International Law and Commercial Regulation",
+   "Abbreviation": "N.C. J. Int'l L. & Com. Reg."
+ },
+ {
+   "Title": "North Carolina Law Review",
+   "Abbreviation": "N.C. L. Rev."
+ },
+ {
+   "Title": "North Dakota Law Review",
+   "Abbreviation": "N.D. L. Rev."
+ },
+ {
+   "Title": "Northern Illinois University Law Review",
+   "Abbreviation": "N. Ill. U. L. Rev."
+ },
+ {
+   "Title": "Northern Kentucky Law Review",
+   "Abbreviation": "N. Ky. L. Rev."
+ },
+ {
+   "Title": "Northwestern Journal of International Law & Business",
+   "Abbreviation": "Nw. J. Int'l L. & Bus."
+ },
+ {
+   "Title": "Northwestern University Law Review",
+   "Abbreviation": "Nw. U. L. Rev."
+ },
+ {
+   "Title": "Nota Bene",
+   "Abbreviation": "Nota Bene"
+ },
+ {
+   "Title": "Notre Dame Journal of Law, Ethics & Public Policy",
+   "Abbreviation": "Notre Dame J.L. Ethics & Pub. Pol'y"
+ },
+ {
+   "Title": "Notre Dame Law Review",
+   "Abbreviation": "Notre Dame L. Rev."
+ },
+ {
+   "Title": "Nova Law Review",
+   "Abbreviation": "Nova L. Rev."
+ },
+ {
+   "Title": "Ocean and Coastal Law Journal",
+   "Abbreviation": "Ocean & Coastal L.J."
+ },
+ {
+   "Title": "Office",
+   "Abbreviation": "Off."
+ },
+ {
+   "Title": "Ohio Northern University Law Review",
+   "Abbreviation": "Ohio N.U. L. Rev."
+ },
+ {
+   "Title": "Ohio State Journal on Dispute Resolution",
+   "Abbreviation": "Ohio St. J. on Disp. Resol."
+ },
+ {
+   "Title": "Ohio State Law Journal",
+   "Abbreviation": "Ohio St. L.J."
+ },
+ {
+   "Title": "Oil and Gas Tax Quarterly",
+   "Abbreviation": "Oil & Gas Tax Q."
+ },
+ {
+   "Title": "Columbia-VLA Journal of Law & the Arts",
+   "Abbreviation": "Colum.-VLA J.L. & Arts"
+ },
+ {
+   "Title": "Oklahoma City University Law Review",
+   "Abbreviation": "Okla. City U. L. Rev."
+ },
+ {
+   "Title": "Oklahoma Law Review",
+   "Abbreviation": "Okla. L. Rev."
+ },
+ {
+   "Title": "on",
+   "Abbreviation": "on"
+ },
+ {
+   "Title": "Order",
+   "Abbreviation": "Ord."
+ },
+ {
+   "Title": "Oregon Law Review",
+   "Abbreviation": "Or. L. Rev."
+ },
+ {
+   "Title": "Organization",
+   "Abbreviation": "Org."
+ },
+ {
+   "Title": "Osgoode Hall Law Journal",
+   "Abbreviation": "Osgoode Hall L.J."
+ },
+ {
+   "Title": "Otago Law Review",
+   "Abbreviation": "Otago L. Rev."
+ },
+ {
+   "Title": "Ottawa Law Review",
+   "Abbreviation": "Ottawa L. Rev."
+ },
+ {
+   "Title": "Pace Environmental Law Review",
+   "Abbreviation": "Pace Envtl. L. Rev."
+ },
+ {
+   "Title": "Pace Law Review",
+   "Abbreviation": "Pace L. Rev."
+ },
+ {
+   "Title": "Pacific",
+   "Abbreviation": "Pac."
+ },
+ {
+   "Title": "Pacific Law Journal",
+   "Abbreviation": "Pac. L.J."
+ },
+ {
+   "Title": "Pacifc Rim Law & Policy Journal",
+   "Abbreviation": "Pac."
+ },
+ {
+   "Title": "Pacific Law Journal",
+   "Abbreviation": "Pac. L.J."
+ },
+ {
+   "Title": "Pacific Rim Law & Policy Journal",
+   "Abbreviation": "Pac. Rim L. & Pol'y J."
+ },
+ {
+   "Title": "Patent",
+   "Abbreviation": "Pat."
+ },
+ {
+   "Title": "Patent Law Annual",
+   "Abbreviation": "Pat. L. Ann."
+ },
+ {
+   "Title": "Pepperdine Law Review",
+   "Abbreviation": "Pepp. L. Rev."
+ },
+ {
+   "Title": "Performing Arts Review",
+   "Abbreviation": "Perf. Arts Rev."
+ },
+ {
+   "Title": "Personal",
+   "Abbreviation": "Pers."
+ },
+ {
+   "Title": "Perspective [s]",
+   "Abbreviation": "Persp."
+ },
+ {
+   "Title": "Philosoph[ical, y]",
+   "Abbreviation": "Phil."
+ },
+ {
+   "Title": "Planning",
+   "Abbreviation": "Plan."
+ },
+ {
+   "Title": "Police",
+   "Abbreviation": "Police"
+ },
+ {
+   "Title": "Policy",
+   "Abbreviation": "Pol'y"
+ },
+ {
+   "Title": "Politic[al, s]",
+   "Abbreviation": "Pol."
+ },
+ {
+   "Title": "Potomac Law Review",
+   "Abbreviation": "Potomac L. Rev."
+ },
+ {
+   "Title": "Practical Lawyer",
+   "Abbreviation": "Prac. Law."
+ },
+ {
+   "Title": "Preventive Law Reporter",
+   "Abbreviation": "Preventive L. Rep."
+ },
+ {
+   "Title": "Preview of United States Supreme Court Cases",
+   "Abbreviation": "Preview U.S. Sup. Ct. Cas."
+ },
+ {
+   "Title": "Probate",
+   "Abbreviation": "Prob."
+ },
+ {
+   "Title": "Probate Law Journal (National College of Probate Judges and Boston University School of Law)",
+   "Abbreviation": "Prob. L.J."
+ },
+ {
+   "Title": "Probation",
+   "Abbreviation": "Probation"
+ },
+ {
+   "Title": "Problems",
+   "Abbreviation": "Probs."
+ },
+ {
+   "Title": "Proce[edings, dure]",
+   "Abbreviation": "Proc."
+ },
+ {
+   "Title": "Profession [al]",
+   "Abbreviation": "Prof."
+ },
+ {
+   "Title": "Property",
+   "Abbreviation": "Prop."
+ },
+ {
+   "Title": "Psychiatry",
+   "Abbreviation": "Psychiatry"
+ },
+ {
+   "Title": "Psycholog[ical, y]",
+   "Abbreviation": "Psychol."
+ },
+ {
+   "Title": "Public",
+   "Abbreviation": "Pub."
+ },
+ {
+   "Title": "Public Interest Law Reporter",
+   "Abbreviation": "Pub. Int. L. Rep."
+ },
+ {
+   "Title": "Public Land Law Review",
+   "Abbreviation": "Pub. Land L. Rev."
+ },
+ {
+   "Title": "Public Land and Resources Law",
+   "Abbreviation": "Pub. Land & Resources L. Rev."
+ },
+ {
+   "Title": "Publishing, Entertainment, Advertising and Allied Fields Law Quarterly",
+   "Abbreviation": "Pub. Ent. Advert. & Allied Fields L.Q."
+ },
+ {
+   "Title": "Quarterly",
+   "Abbreviation": "Q."
+ },
+ {
+   "Title": "Quinniplac Health Law Journal",
+   "Abbreviation": "Quinniplac Health L.J."
+ },
+ {
+   "Title": "Quinniplac Law Review",
+   "Abbreviation": "Quinniplac L. Rev."
+ },
+ {
+   "Title": "Quinniplac Probate Law Journal",
+   "Abbreviation": "Quinniplac Prob. L.J."
+ },
+ {
+   "Title": "Race and Ethnic Ancestry Law Journal",
+   "Abbreviation": "Race & Ethnic Anc. L.J."
+ },
+ {
+   "Title": "Real",
+   "Abbreviation": "Real"
+ },
+ {
+   "Title": "Real Property, Probate and Trust Journal",
+   "Abbreviation": "Real Prop. Prob. & Tr. J."
+ },
+ {
+   "Title": "Record",
+   "Abbreviation": "Rec."
+ },
+ {
+   "Title": "Referees",
+   "Abbreviation": "Ref."
+ },
+ {
+   "Title": "Reform",
+   "Abbreviation": "Reform"
+ },
+ {
+   "Title": "Regent University Law Review",
+   "Abbreviation": "Regent U. L. Rev."
+ },
+ {
+   "Title": "Register",
+   "Abbreviation": "Reg."
+ },
+ {
+   "Title": "Regulat[ion, ory]",
+   "Abbreviation": "Reg."
+ },
+ {
+   "Title": "Relations",
+   "Abbreviation": "Rel."
+ },
+ {
+   "Title": "Report[s, er]",
+   "Abbreviation": "Rep."
+ },
+ {
+   "Title": "Reproduct[ion, ive]",
+   "Abbreviation": "Reprod."
+ },
+ {
+   "Title": "Research",
+   "Abbreviation": "Res."
+ },
+ {
+   "Title": "Reserve",
+   "Abbreviation": "Res."
+ },
+ {
+   "Title": "Resolution",
+   "Abbreviation": "Resol."
+ },
+ {
+   "Title": "Resources",
+   "Abbreviation": "Resources"
+ },
+ {
+   "Title": "Responsibility",
+   "Abbreviation": "Resp."
+ },
+ {
+   "Title": "Review",
+   "Abbreviation": "Rev."
+ },
+ {
+   "Title": "Review of Litigation",
+   "Abbreviation": "Rev. Litig."
+ },
+ {
+   "Title": "Revista de Derecho Puertorriqueno",
+   "Abbreviation": "Rev. Der. P.R."
+ },
+ {
+   "Title": "Revista Juridica Universidad de Puerto Rico",
+   "Abbreviation": "Rev. Jur. U.P.R."
+ },
+ {
+   "Title": "Richmond Journal of Global Law & Business",
+   "Abbreviation": "Rich. J. Global L. & Bus."
+ },
+ {
+   "Title": "Richmond Journal of Law and the Public Interest",
+   "Abbreviation": "Rich. J.L. & Pub. Int."
+ },
+ {
+   "Title": "Richmond Journal of Law & Technology",
+   "Abbreviation": "Rich. J.L. & Tech."
+ },
+ {
+   "Title": "Rights",
+   "Abbreviation": "Rts."
+ },
+ {
+   "Title": "Risk",
+   "Abbreviation": "Risk"
+ },
+ {
+   "Title": "RISK: Health, Safety, & Environment",
+   "Abbreviation": "RISK"
+ },
+ {
+   "Title": "Rocky Mountain Mineral Law Institute",
+   "Abbreviation": "Rocky Mtn. Min. L. Inst."
+ },
+ {
+   "Title": "Roger Williams University Law Review",
+   "Abbreviation": "Roger Williams U. L. Rev."
+ },
+ {
+   "Title": "Rutgers-Camden Law Journal",
+   "Abbreviation": "Rutgers-Cam. L.J."
+ },
+ {
+   "Title": "Rutgers Computer and Technology Law Journal",
+   "Abbreviation": "Rutgers Computer & Tech. L.J."
+ },
+ {
+   "Title": "Rutgers Law Journal",
+   "Abbreviation": "Rutgers L.J."
+ },
+ {
+   "Title": "Rutgers Law Record",
+   "Abbreviation": "Rutgers L. Rec."
+ },
+ {
+   "Title": "Rutgers Law Review",
+   "Abbreviation": "Rutgers L. Rev."
+ },
+ {
+   "Title": "Rutgers Race and the Law Review",
+   "Abbreviation": "Rutgers Race & L. Rev."
+ },
+ {
+   "Title": "St. John's Journal of Legal Commentary",
+   "Abbreviation": "St. John's J. Legal Comment."
+ },
+ {
+   "Title": "St. John's Law Review",
+   "Abbreviation": "St. John's L. Rev."
+ },
+ {
+   "Title": "Saint Louis University Law Journal",
+   "Abbreviation": "St. Louis U. L.J."
+ },
+ {
+   "Title": "Saint Louis University Public Law Review",
+   "Abbreviation": "St. Louis U. Pub. L. Rev."
+ },
+ {
+   "Title": "Saint Louis-Warsaw Transatlantic Law Journal",
+   "Abbreviation": "St. Louis-Warsaw Transatlantic L.J."
+ },
+ {
+   "Title": "St. Mary's Law Journal",
+   "Abbreviation": "St. Mary's L.J."
+ },
+ {
+   "Title": "St. Thomas Law Review",
+   "Abbreviation": "St. Thomas L. Rev."
+ },
+ {
+   "Title": "San Diego Law Review",
+   "Abbreviation": "San Diego L. Rev."
+ },
+ {
+   "Title": "San Fernando Valley Law Review",
+   "Abbreviation": "San Fern. V. L. Rev."
+ },
+ {
+   "Title": "Santa Clara Computer and High Technology Law Journal",
+   "Abbreviation": "Santa Clara Computer & High Tech. L.J."
+ },
+ {
+   "Title": "Santa Clara Law Review",
+   "Abbreviation": "Santa Clara L. Rev."
+ },
+ {
+   "Title": "The Scholar: St. Mary's Law Review on Minority Issues",
+   "Abbreviation": "Scholar"
+ },
+ {
+   "Title": "School",
+   "Abbreviation": "Sch."
+ },
+ {
+   "Title": "Scien[ce, ces, tific]",
+   "Abbreviation": "Sci."
+ },
+ {
+   "Title": "Scientific American",
+   "Abbreviation": "Sci. Am."
+ },
+ {
+   "Title": "Scottish",
+   "Abbreviation": "Scot."
+ },
+ {
+   "Title": "Seattle University Law Review",
+   "Abbreviation": "Seattle U. L. Rev."
+ },
+ {
+   "Title": "Section",
+   "Abbreviation": "Sec."
+ },
+ {
+   "Title": "Securities",
+   "Abbreviation": "Sec."
+ },
+ {
+   "Title": "Seton Hall Constitutional Law Journal",
+   "Abbreviation": "Seton Hall Const. L.J."
+ },
+ {
+   "Title": "Seton Hall Journal of Sport Law",
+   "Abbreviation": "Seton Hall J. Sport L."
+ },
+ {
+   "Title": "Seton Hall Law Review",
+   "Abbreviation": "Seton Hall L. Rev."
+ },
+ {
+   "Title": "Seton Hall Legislative Journal",
+   "Abbreviation": "Seton Hall Legis. J."
+ },
+ {
+   "Title": "Signs",
+   "Abbreviation": "Signs"
+ },
+ {
+   "Title": "Social",
+   "Abbreviation": "Soc."
+ },
+ {
+   "Title": "Social Service Review",
+   "Abbreviation": "Soc. Serv. Rev."
+ },
+ {
+   "Title": "Socialist",
+   "Abbreviation": "Socialist"
+ },
+ {
+   "Title": "Society",
+   "Abbreviation": "Soc'y"
+ },
+ {
+   "Title": "Sociolog[ical, y]",
+   "Abbreviation": "Soc."
+ },
+ {
+   "Title": "Software Law Journal",
+   "Abbreviation": "Software L.J."
+ },
+ {
+   "Title": "Solicitor [s, s', 's]",
+   "Abbreviation": "Solic."
+ },
+ {
+   "Title": "South [ern]",
+   "Abbreviation": "S."
+ },
+ {
+   "Title": "South Carolina Environmental Law Journal",
+   "Abbreviation": "S.C. Envtl. L.J."
+ },
+ {
+   "Title": "South Carolina Law Review",
+   "Abbreviation": "S.C. L. Rev."
+ },
+ {
+   "Title": "South Dakota Law Review",
+   "Abbreviation": "S.D. L. Rev."
+ },
+ {
+   "Title": "South Texas Law Review",
+   "Abbreviation": "S. Tex. L. Rev."
+ },
+ {
+   "Title": "Southern California Interdisciplinary Law Journal",
+   "Abbreviation": "S. Cal. Interdisc. L.J."
+ },
+ {
+   "Title": "Southern California Law Review",
+   "Abbreviation": "S. Cal. L. Rev."
+ },
+ {
+   "Title": "Southern California Review of Law & Women's Studies",
+   "Abbreviation": "S. Cal. Rev. L. & Women's Stud."
+ },
+ {
+   "Title": "Southern Illinois University Law Journal",
+   "Abbreviation": "S. Ill. U. L.J."
+ },
+ {
+   "Title": "Southern Methodist University Law Review",
+   "Abbreviation": "S.M.U. L. Rev."
+ },
+ {
+   "Title": "Southern University Law Review",
+   "Abbreviation": "S.U. L. Rev."
+ },
+ {
+   "Title": "Southwestern Journal of Law and Trade in the Americas",
+   "Abbreviation": "Sw. J.L. & Trade Am."
+ },
+ {
+   "Title": "Southwestern Law Journal",
+   "Abbreviation": "Sw. L.J."
+ },
+ {
+   "Title": "Southwestern University Law Review",
+   "Abbreviation": "Sw. U. L. Rev."
+ },
+ {
+   "Title": "Southwestern Journal of Law and Trade in the Americas",
+   "Abbreviation": "Sw. J. L. & Trade Am."
+ },
+ {
+   "Title": "Sports Lawyers Journal",
+   "Abbreviation": "Sports Law J."
+ },
+ {
+   "Title": "Stanford Environmental Law Journal",
+   "Abbreviation": "Stan. Envtl. L.J."
+ },
+ {
+   "Title": "Stanford Journal of International Law",
+   "Abbreviation": "Stan. J. Int'l L."
+ },
+ {
+   "Title": "Stanford Law & Policy Review",
+   "Abbreviation": "Stan. L. & Pol'y Rev."
+ },
+ {
+   "Title": "Stanford Law Review",
+   "Abbreviation": "Stan. L. Rev."
+ },
+ {
+   "Title": "State",
+   "Abbreviation": "St."
+ },
+ {
+   "Title": "State Bar of Texas Environmental Law Journal",
+   "Abbreviation": "St. B. Tex. Envtl. L.J."
+ },
+ {
+   "Title": "Statistic[s, al]",
+   "Abbreviation": "Stat."
+ },
+ {
+   "Title": "Stetson Law Forum",
+   "Abbreviation": "Stetson L.F."
+ },
+ {
+   "Title": "Studies",
+   "Abbreviation": "Stud."
+ },
+ {
+   "Title": "Suffolk Journal of Trial & Appellate Advocacy",
+   "Abbreviation": "Suffolk J. Trial & App. Advoc."
+ },
+ {
+   "Title": "Suffolk Transnational Law Review",
+   "Abbreviation": "Suffolk Transnat'l L. Rev."
+ },
+ {
+   "Title": "Suffolk University Law Review",
+   "Abbreviation": "Suffolk U. L. Rev."
+ },
+ {
+   "Title": "Supreme Court Review",
+   "Abbreviation": "Sup. Ct. Rev."
+ },
+ {
+   "Title": "Survey",
+   "Abbreviation": "Surv."
+ },
+ {
+   "Title": "Sydney Law Review",
+   "Abbreviation": "Sydney L. Rev."
+ },
+ {
+   "Title": "Symposium",
+   "Abbreviation": "Symp."
+ },
+ {
+   "Title": "Syracuse Journal of International Law and Commerce",
+   "Abbreviation": "Syracuse J. Int'l L. & Com."
+ },
+ {
+   "Title": "Syracuse Law Review",
+   "Abbreviation": "Syracuse L. Rev."
+ },
+ {
+   "Title": "System",
+   "Abbreviation": "Sys."
+ },
+ {
+   "Title": "Tax",
+   "Abbreviation": "Tax"
+ },
+ {
+   "Title": "Tax Adviser",
+   "Abbreviation": "Tax Adviser"
+ },
+ {
+   "Title": "Tax Law Review",
+   "Abbreviation": "Tax L. Rev."
+ },
+ {
+   "Title": "Tax Lawyer",
+   "Abbreviation": "Tax Law."
+ },
+ {
+   "Title": "Tax Management International Journal",
+   "Abbreviation": "Tax Mgm't Int'l J."
+ },
+ {
+   "Title": "Tax Notes",
+   "Abbreviation": "Tax Notes"
+ },
+ {
+   "Title": "Taxation",
+   "Abbreviation": "Tax'n"
+ },
+ {
+   "Title": "Taxes- The Tax Magazine",
+   "Abbreviation": "Taxes"
+ },
+ {
+   "Title": "Teacher [s]",
+   "Abbreviation": "Tchr[s]."
+ },
+ {
+   "Title": "Techn[ique, ology]",
+   "Abbreviation": "Tech."
+ },
+ {
+   "Title": "Telecommunication [s]",
+   "Abbreviation": "Telecomm."
+ },
+ {
+   "Title": "Temple Environmental Law & Technology Journal",
+   "Abbreviation": "Temp. Envtl. L. & Tech. J."
+ },
+ {
+   "Title": "Temple International and Comparative Law Journal",
+   "Abbreviation": "Temp. Int'l & Comp. L.J."
+ },
+ {
+   "Title": "Temple Law Review",
+   "Abbreviation": "Temp. L. Rev."
+ },
+ {
+   "Title": "Temple Political and Civil Rights Law Review",
+   "Abbreviation": "Temp. Pol. & Civ. Rts. L. Rev."
+ },
+ {
+   "Title": "Tenessee Journal of Practice & Procedure",
+   "Abbreviation": "Tenn. J. Prac. & Proc."
+ },
+ {
+   "Title": "Tennessee Law Review",
+   "Abbreviation": "Tenn. L. Rev."
+ },
+ {
+   "Title": "Texas Forum on Civil Liberties and Civil Rights",
+   "Abbreviation": "Tex. Hisp. J.L. & Pol'y"
+ },
+ {
+   "Title": "Texas Intellectual Property Law Journal",
+   "Abbreviation": "Tex. Intell. Prop. L.J."
+ },
+ {
+   "Title": "Texas International Law Journal",
+   "Abbreviation": "Tex. Int'l L.J."
+ },
+ {
+   "Title": "Texas Journal of Business Law",
+   "Abbreviation": "Tex. J. Bus. L."
+ },
+ {
+   "Title": "Texas Journal of Women and the Law",
+   "Abbreviation": "Tex. J. Women & L."
+ },
+ {
+   "Title": "Texas Law Review",
+   "Abbreviation": "Tex. L. Rev."
+ },
+ {
+   "Title": "Texas Review of Law and Politics",
+   "Abbreviation": "Tex. Rev. L. & Pol."
+ },
+ {
+   "Title": "Texas Tech Law Review",
+   "Abbreviation": "Tex. Tech L. Rev."
+ },
+ {
+   "Title": "Texas Wesleyan Law Review",
+   "Abbreviation": "Tex. Wesleyan L. Rev."
+ },
+ {
+   "Title": "Third World Legal Studies",
+   "Abbreviation": "Third World Legal Stud."
+ },
+ {
+   "Title": "Thomas Jefferson Law Review",
+   "Abbreviation": "T. Jefferson L. Rev."
+ },
+ {
+   "Title": "Thomas M. Cooley Journal of Practical and Clinical Law",
+   "Abbreviation": "T.M. Cooley J. Prac. & Clinical L."
+ },
+ {
+   "Title": "Thomas M. Cooley Law Review",
+   "Abbreviation": "T.M. Cooley L. Rev."
+ },
+ {
+   "Title": "Thurgood Marshall Law Review",
+   "Abbreviation": "T. Marshall L. Rev."
+ },
+ {
+   "Title": "Toledo Journal of Great Lakes' Law, Science & Policy",
+   "Abbreviation": "Tol. J. Great Lakes' L. Sci. & Pol'y"
+ },
+ {
+   "Title": "Touro Journal of Transnational Law",
+   "Abbreviation": "Touro J. Transnat'l L."
+ },
+ {
+   "Title": "Touro Law Review",
+   "Abbreviation": "Touro L. Rev."
+ },
+ {
+   "Title": "Trade",
+   "Abbreviation": "Trade"
+ },
+ {
+   "Title": "Trademark",
+   "Abbreviation": "Trademark"
+ },
+ {
+   "Title": "Trademark Reporter",
+   "Abbreviation": "Trademark Rep."
+ },
+ {
+   "Title": "Transnational",
+   "Abbreviation": "Transnat'l"
+ },
+ {
+   "Title": "Transnational Law & Contemporary Problems",
+   "Abbreviation": "Transnat'l L. & Contemp. Probs."
+ },
+ {
+   "Title": "The Transnational Lawyer",
+   "Abbreviation": "Transnat'l Law."
+ },
+ {
+   "Title": "Transportation",
+   "Abbreviation": "Transp."
+ },
+ {
+   "Title": "Transportation Law Journal",
+   "Abbreviation": "Transp. L.J."
+ },
+ {
+   "Title": "Transportation Practitioners Journal",
+   "Abbreviation": "Transp. Prac. J."
+ },
+ {
+   "Title": "Trial",
+   "Abbreviation": "Trial"
+ },
+ {
+   "Title": "Trial Lawyer's Guide",
+   "Abbreviation": "Trial Law. Guide"
+ },
+ {
+   "Title": "Tribune",
+   "Abbreviation": "Trib."
+ },
+ {
+   "Title": "Trust [s]",
+   "Abbreviation": "Tr."
+ },
+ {
+   "Title": "Tulane Environmental Law Journal",
+   "Abbreviation": "Tul. Envtl. L.J."
+ },
+ {
+   "Title": "Tulane European & Civil Law Forum",
+   "Abbreviation": "Tul. Eur. & Civ. L.F."
+ },
+ {
+   "Title": "Tulane Journal of International and Comparative Law",
+   "Abbreviation": "Tul. J. Int'l & Comp. L."
+ },
+ {
+   "Title": "Tulane Journal of Law and Sexuality",
+   "Abbreviation": "Tulane J.L. & Sexuality"
+ },
+ {
+   "Title": "Tulane Law Review",
+   "Abbreviation": "Tul. L. Rev."
+ },
+ {
+   "Title": "Tulane Maritime Law Journal",
+   "Abbreviation": "Tul. Mar. L.J."
+ },
+ {
+   "Title": "Tulsa Journal of Comparative & International Law",
+   "Abbreviation": "Tulsa J. Comp. & Int'l L."
+ },
+ {
+   "Title": "Tulsa Law Journal",
+   "Abbreviation": "Tulsa L.J."
+ },
+ {
+   "Title": "UCLA Bulletin of Law and the Technology",
+   "Abbreviation": "UCLA Bull. L. & Tech."
+ },
+ {
+   "Title": "UCLA Entertainment Law Review",
+   "Abbreviation": "UCLA Ent. L. Rev."
+ },
+ {
+   "Title": "UCLA Journal of Environmental Law and Policy",
+   "Abbreviation": "UCLA J. Envtl. L. & Pol'y"
+ },
+ {
+   "Title": "UCLA Journal of International Law and Foreign Affairs",
+   "Abbreviation": "UCLA J. Int'l L. & Foreign Aff."
+ },
+ {
+   "Title": "UCLA Law Review",
+   "Abbreviation": "UCLA L. Rev."
+ },
+ {
+   "Title": "UCLA Pacific Basin Law Journal",
+   "Abbreviation": "UCLA Pac. Basin L.J."
+ },
+ {
+   "Title": "UCLA Women's Law Journal",
+   "Abbreviation": "UCLA Women's L.J."
+ },
+ {
+   "Title": "UMKC Law Review",
+   "Abbreviation": "UMKC L. Rev."
+ },
+ {
+   "Title": "UN Monthly Chronicle",
+   "Abbreviation": "UN Monthly Chron."
+ },
+ {
+   "Title": "Uniform Commercial Code Law",
+   "Abbreviation": "UCC L.J."
+ },
+ {
+   "Title": "Uniform Commercial Code Reporter-Digest",
+   "Abbreviation": "UCC Rep.-Dig."
+ },
+ {
+   "Title": "United States",
+   "Abbreviation": "U.S."
+ },
+ {
+   "Title": "United States-Mexico Law Journal",
+   "Abbreviation": "U.S.-Mex. L.J."
+ },
+ {
+   "Title": "Universit[ies, y]",
+   "Abbreviation": "U."
+ },
+ {
+   "Title": "University of Arkansas at Little Rock Law Review",
+   "Abbreviation": "U. Ark. Little Rock L. Rev."
+ },
+ {
+   "Title": "University of Baltimore Intellectual Property Law Journal",
+   "Abbreviation": "U. Balt. Intell. Prop. L.J."
+ },
+ {
+   "Title": "University of Baltimore Journal of Environmental Law",
+   "Abbreviation": "U. Balt. J. Envtl. L."
+ },
+ {
+   "Title": "University of Baltimore Law Forum",
+   "Abbreviation": "U. Balt. L.F."
+ },
+ {
+   "Title": "University of Baltimore Law Review",
+   "Abbreviation": "U. Balt. L. Rev."
+ },
+ {
+   "Title": "University of California at Davis Law Review",
+   "Abbreviation": "U.C. Davis L. Rev."
+ },
+ {
+   "Title": "University of Chicago Law Review",
+   "Abbreviation": "U. Chi. L. Rev."
+ },
+ {
+   "Title": "University of Chicago Legal Forum",
+   "Abbreviation": "U. Chi. Legal F."
+ },
+ {
+   "Title": "University of Cincinnati Law Review",
+   "Abbreviation": "U. Cin. L. Rev."
+ },
+ {
+   "Title": "University of Colorado Law Review",
+   "Abbreviation": "U. Colo. L. Rev."
+ },
+ {
+   "Title": "University of Dayton Law Review",
+   "Abbreviation": "U. Dayton L. Rev."
+ },
+ {
+   "Title": "University of Denver Water Law Review",
+   "Abbreviation": "U. Denv. Water L. Rev."
+ },
+ {
+   "Title": "University of Detroit Mercy Law Review",
+   "Abbreviation": "U. Detroit Mercy L. Rev."
+ },
+ {
+   "Title": "University of the District of COlumbia David Clarke School of Law Law Review",
+   "Abbreviation": "UDC/DCSL L. Rev."
+ },
+ {
+   "Title": "University of Florida Journal of Law and Public Policy",
+   "Abbreviation": "U. Fla. L. Rev."
+ },
+ {
+   "Title": "University of Hawaii Law Review",
+   "Abbreviation": "U. Haw. L. Rev."
+ },
+ {
+   "Title": "University of Illinois Journal of Law, Technology, and Policy",
+   "Abbreviation": "U. Ill. J.L. Tech. & Pol'y"
+ },
+ {
+   "Title": "University of Illinois Law Review",
+   "Abbreviation": "U. Ill. L. Rev."
+ },
+ {
+   "Title": "University of Kansas Law Review",
+   "Abbreviation": "U. Kan. L. Rev."
+ },
+ {
+   "Title": "University of Memphis Law Review",
+   "Abbreviation": "U. Mem. L. Rev."
+ },
+ {
+   "Title": "University of Miami Business Law",
+   "Abbreviation": "U. Miami Bus. L. Rev."
+ },
+ {
+   "Title": "University of Miami Entertainment and Sports Law Review",
+   "Abbreviation": "U. Miami Ent. & Sports L. Rev."
+ },
+ {
+   "Title": "University of Miami Inter-American Law Review",
+   "Abbreviation": "U. Miami Inter-Am. L. Rev."
+ },
+ {
+   "Title": "University of Miami Law Review",
+   "Abbreviation": "U. Miami L. Rev."
+ },
+ {
+   "Title": "University of Miami Yearbook International Law",
+   "Abbreviation": "U. Miami Y.B. Int'l L."
+ },
+ {
+   "Title": "University of Michigan Journal of Law Reform",
+   "Abbreviation": "U. Mich. J.L. Reform"
+ },
+ {
+   "Title": "University of Pennsylvania Journal of Constitutional Law",
+   "Abbreviation": "U. of Pa. J. Const. L."
+ },
+ {
+   "Title": "University of Pennsylvania Journal of International Economic Law",
+   "Abbreviation": "U. Pa. J. Int'l Econ. L."
+ },
+ {
+   "Title": "University of Pennsylvania Journal of Labor and Employment Law",
+   "Abbreviation": "U. Pa. J. Lab. & Emp. L."
+ },
+ {
+   "Title": "University of Pennsylvania Law Review",
+   "Abbreviation": "U. Pa. L. Rev."
+ },
+ {
+   "Title": "University of Pittsburgh Law Review",
+   "Abbreviation": "U. Pitt. L. Rev."
+ },
+ {
+   "Title": "University of Puget Sound Law Review",
+   "Abbreviation": "U. Puget Sound L. Rev."
+ },
+ {
+   "Title": "University of Richmond Law Review",
+   "Abbreviation": "U. Rich. L. Rev."
+ },
+ {
+   "Title": "University of San Francisco Law Review",
+   "Abbreviation": "U.S.F. L. Rev."
+ },
+ {
+   "Title": "University of San Francisco Maritime Law Journal",
+   "Abbreviation": "U.S.F. Mar. L.J."
+ },
+ {
+   "Title": "University of Seattle Law Review",
+   "Abbreviation": "U. Seattle L. Rev."
+ },
+ {
+   "Title": "University of Toledo Law Review",
+   "Abbreviation": "U. Tol. L. Rev."
+ },
+ {
+   "Title": "University of Toronto Faculty of Law Review",
+   "Abbreviation": "U. Toronto Fac. L. Rev."
+ },
+ {
+   "Title": "University of Toronto Law Journal",
+   "Abbreviation": "U. Toronto L.J."
+ },
+ {
+   "Title": "University of West Los Angeles Law Review",
+   "Abbreviation": "UWLA L. Rev."
+ },
+ {
+   "Title": "Urban",
+   "Abbreviation": "Urb."
+ },
+ {
+   "Title": "Urban Lawyer",
+   "Abbreviation": "Urb. Law."
+ },
+ {
+   "Title": "Utah Law Review",
+   "Abbreviation": "Utah L. Rev."
+ },
+ {
+   "Title": "Utilit[ies, y]",
+   "Abbreviation": "Util."
+ },
+ {
+   "Title": "Valparaiso University Law Review",
+   "Abbreviation": "Val. U. L. Rev."
+ },
+ {
+   "Title": "Vanderbilt Journal of Transnational Law",
+   "Abbreviation": "Vand. J. Transnat'l L."
+ },
+ {
+   "Title": "Vanderbilt Law Review",
+   "Abbreviation": "Vand. L. Rev."
+ },
+ {
+   "Title": "Vermont Law Review",
+   "Abbreviation": "Vt. L. Rev."
+ },
+ {
+   "Title": "Villanova Sports & Environmental Law Journal",
+   "Abbreviation": "Vill. Sports & Envtl. L.J."
+ },
+ {
+   "Title": "Virginia Environmental Law Journal",
+   "Abbreviation": "Va. Envtl. Law Journal"
+ },
+ {
+   "Title": "Virginia Journal of International Law",
+   "Abbreviation": "Va. J. Int'l L."
+ },
+ {
+   "Title": "Virgina Journal of Law & Technology",
+   "Abbreviation": "Va. J.L. & Tech."
+ },
+ {
+   "Title": "Virginia Journal of Social Policy and the Law",
+   "Abbreviation": "Va. J. Soc. Pol'y & L."
+ },
+ {
+   "Title": "Virginia Journal of Sports and the Law",
+   "Abbreviation": "Va. J. Sports & L."
+ },
+ {
+   "Title": "Virginia Law Review",
+   "Abbreviation": "Va. L. Rev."
+ },
+ {
+   "Title": "Virginia Tax Review",
+   "Abbreviation": "Va. Tax Rev."
+ },
+ {
+   "Title": "Wake Forest Law Review",
+   "Abbreviation": "Wake Forest L. Rev."
+ },
+ {
+   "Title": "Wall Street Journal",
+   "Abbreviation": "Wall St. J."
+ },
+ {
+   "Title": "Washburn Law Journal",
+   "Abbreviation": "Washburn L.J."
+ },
+ {
+   "Title": "Washington & Lee Law Review",
+   "Abbreviation": "Wash. & Lee L. Rev."
+ },
+ {
+   "Title": "Washington Law Review",
+   "Abbreviation": "Wash. L. Rev."
+ },
+ {
+   "Title": "Washington Monthly",
+   "Abbreviation": "Was. Monthly"
+ },
+ {
+   "Title": "Washingotn University Journal of Law and Policy",
+   "Abbreviation": "Wash. U. J.L. & Pol'y"
+ },
+ {
+   "Title": "Washington University Journal of Urban and Contemporary Law",
+   "Abbreviation": "Wash. U.J. Urb. & Contemp. L."
+ },
+ {
+   "Title": "Washington University Law Quarterly",
+   "Abbreviation": "Washington U. L.Q."
+ },
+ {
+   "Title": "Wayne Law Review",
+   "Abbreviation": "Wayne L. Rev."
+ },
+ {
+   "Title": "Week",
+   "Abbreviation": "Wk."
+ },
+ {
+   "Title": "Weekly",
+   "Abbreviation": "Wkly."
+ },
+ {
+   "Title": "Welfare",
+   "Abbreviation": "Welfare"
+ },
+ {
+   "Title": "West [ern]",
+   "Abbreviation": "W."
+ },
+ {
+   "Title": "West Virginia Law Review",
+   "Abbreviation": "W. Va. L. Rev."
+ },
+ {
+   "Title": "Western New England Law Review",
+   "Abbreviation": "W. New Eng. L. Rev."
+ },
+ {
+   "Title": "Western State University Law Review",
+   "Abbreviation": "W. St. U. L. Rev."
+ },
+ {
+   "Title": "Whittier Law Review",
+   "Abbreviation": "Whittier L. Rev."
+ },
+ {
+   "Title": "Widener Journal of Public Law",
+   "Abbreviation": "Widener J. Pub. L."
+ },
+ {
+   "Title": "Widener Law Symposium Journal",
+   "Abbreviation": "Widener L. Symp. J."
+ },
+ {
+   "Title": "Willamette Law Review",
+   "Abbreviation": "Willamette L. Rev."
+ },
+ {
+   "Title": "William and Mary Bill of Rights Journal",
+   "Abbreviation": "Wm. & Mary Bill Rts. J."
+ },
+ {
+   "Title": "William and Mary Journal of Women and the Law",
+   "Abbreviation": "Wm. & Mary J. Women & L."
+ },
+ {
+   "Title": "William and Mary Law Review",
+   "Abbreviation": "Wm. & Mary L. Rev."
+ },
+ {
+   "Title": "William Mitchell Law Review",
+   "Abbreviation": "Wm. Mitchell L. Rev."
+ },
+ {
+   "Title": "Wisconsin Environmental Law Journal",
+   "Abbreviation": "Wis. Envtl. L.J."
+ },
+ {
+   "Title": "Wisconsin International Law Journal",
+   "Abbreviation": "Wis. Int'l L.J."
+ },
+ {
+   "Title": "Wisconsin Law Review",
+   "Abbreviation": "Wis. L. Rev."
+ },
+ {
+   "Title": "Wisconsin Women's Law Journal",
+   "Abbreviation": "Wis. Women's L.J."
+ },
+ {
+   "Title": "Women ['s]",
+   "Abbreviation": "Women['s]"
+ },
+ {
+   "Title": "Women's Rights Law Reporter",
+   "Abbreviation": "Women's Rts. L. Rep."
+ },
+ {
+   "Title": "World",
+   "Abbreviation": "World"
+ },
+ {
+   "Title": "Yale Human Rights and Development Law Journal",
+   "Abbreviation": "Yale Hum. Rts. & Dev. L.J."
+ },
+ {
+   "Title": "Yale Journal of International Law",
+   "Abbreviation": "Yale J. Int'l. L."
+ },
+ {
+   "Title": "Yale Journal of Law and Feminism",
+   "Abbreviation": "Yale J.L. & Feminism"
+ },
+ {
+   "Title": "Yale Journal of Law and the Humanities",
+   "Abbreviation": "Yale J.L. & Human."
+ },
+ {
+   "Title": "Yale Journal of World Public Order",
+   "Abbreviation": "Yale J. World Pub. Ord."
+ },
+ {
+   "Title": "Yale Journal on Regulation",
+   "Abbreviation": "Yale J. on Reg."
+ },
+ {
+   "Title": "Yale Law and Policy Review",
+   "Abbreviation": "Yale L. & Pol'y Rev."
+ },
+ {
+   "Title": "Yale Law Journal",
+   "Abbreviation": "Yale L.J."
+ },
+ {
+   "Title": "Yearbook (or Year Book)",
+   "Abbreviation": "Y.B."
+ }
+]

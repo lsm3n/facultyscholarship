@@ -1,0 +1,21 @@
+; lsm3n - May 2020
+
+name = UVA Law Faculty Scholarship Repository
+description = Module for faculty scholarship repository
+core = 7.x
+package = Features
+dependencies[] = composer_manager
+dependencies[] = paragraphs
+dependencies[] = isbn
+dependencies[] = partial_date
+
+php = 7.0
+
+files[] = facultyscholarship.class.inc
+files[] = facultyscholarship.admin.class.inc
+files[] = facultyscholarship.orcid.class.inc
+files[] = facultyscholarship.connector.class.inc
+files[] = facultyscholarship.bibtex.class.inc
+
+configure = admin/config/people/scholarship
+configure = admin/config/people/scholarship/queue
